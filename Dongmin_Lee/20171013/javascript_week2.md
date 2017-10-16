@@ -1,512 +1,455 @@
-{\rtf1\ansi\ansicpg949\cocoartf1561
-{\fonttbl\f0\fnil\fcharset129 AppleSDGothicNeo-Regular;\f1\fnil\fcharset129 AppleSDGothicNeo-Heavy;\f2\fnil\fcharset129 AppleSDGothicNeo-ExtraBold;
-\f3\fnil\fcharset129 .AppleSDGothicNeoI-Regular;\f4\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;\red246\green246\blue246;
-\red14\green114\blue164;\red38\green38\blue38;\red17\green137\blue135;\red135\green136\blue117;\red255\green255\blue255;
-\red88\green209\blue235;\red26\green26\blue26;\red246\green246\blue239;}
-{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\csgray\c0\c0;\cssrgb\c97255\c97255\c97255;
-\cssrgb\c0\c52549\c70196;\cssrgb\c20000\c20000\c20000;\cssrgb\c0\c60000\c60000;\cssrgb\c60000\c60000\c53333;\cssrgb\c100000\c100000\c100000;
-\cssrgb\c40000\c85098\c93725;\cssrgb\c13333\c13333\c13333;\cssrgb\c97255\c97255\c94902;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf2 \cb3 \
-##Built-in method / property / object\
-\'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'b4\'c2 \'b3\'bb\'c0\'e5 \'b5\'c8 \'b1\'e2\'b4\'c9\'c0\'cc \'c0\'d6\'b4\'d9\
-\'b3\'bb\'c0\'e5 \'b5\'c8 \'b1\'e2\'b4\'c9\'b0\'fa \'c0\'af\'bb\'e7\'c7\'d1 \'b1\'e2\'b4\'c9\'c0\'bb \'b1\'b8\'c7\'f6\'c7\'cf\'b7\'c1\'c7\'cf\'b8\'e9 \'bd\'c3\'b0\'a3 \'b3\'b6\'ba\'f1 \'b5\'b7\'b3\'b6\'ba\'f1 \'bd\'c9\'c1\'f6\'be\'ee \'bc\'ba\'b4\'c9\'b5\'b5 \'b6\'b3\'be\'ee\'c1\'f8\'b4\'d9\
- - \'b1\'d7\'b7\'af\'c7\'d1 \'c0\'cc\'c0\'af\'b7\'ce \'b3\'bb\'c0\'e5 \'b1\'e2\'b4\'c9\'c0\'bb \'bc\'f7\'c1\'f6 \'c7\'cf\'b0\'ed \'c0\'d6\'be\'ee\'be\'df \'c7\'d1\'b4\'d9\
-\'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'b4\'c2 \'ba\'f4\'c6\'ae\'c0\'ce\'c0\'cc \'b4\'d9\'b8\'a5\'be\'f0\'be\'ee \'ba\'b8\'b4\'d9 \'c0\'fb\'c0\'ba\'c6\'ed\'c0\'cc\'b4\'d9\
-\
-*Built-in === API\
-\
-*String\'b0\'fa Array \'c1\'df\'bf\'e4\'c7\'cf\'b4\'d9\
-*Array: \'bc\'f8\'bc\'ad\'b0\'a1 \'c0\'d6\'b0\'ed, for\'b9\'ae\'bf\'a1\'bc\'ad \'bc\'f8\'c8\'b8\'b0\'a1\'b4\'c9,  \'b4\'d9\'b7\'e7\'b1\'e2 \'c6\'ed\'c7\'d4 array\'c0\'c7 built-in\'b1\'e2\'b4\'c9\'c0\'cc \'bf\'ec\'bc\'f6\'c7\'cf\'b4\'d9\
-\
-\
-## Built-in Object  \'b3\'bb\'c0\'e5 \'b0\'b4\'c3\'bc\
-BOM \'ba\'ea\'b6\'f3\'bf\'ec\'c0\'fa\'b8\'a6 \'c4\'c1\'c6\'b2\'b7\'d1 \'c7\'d1\'b4\'d9\
-DOM HTML CSS\'b8\'a6 \'c4\'c1\'c6\'ae\'b7\'d1\'c7\'d8\'bc\'ad \'c6\'e4\'c0\'cc\'c1\'f6\'b8\'a6 \'b5\'bf\'c0\'fb\'c0\'b8\'b7\'ce \'b8\'b8\'b5\'e9\'be\'ee \'c1\'d8\'b4\'d9\
-\
-##Standard Built-in Object\
--\'c7\'a5\'c1\'d8 \'ba\'f4\'c6\'ae\'c0\'ce \'b0\'b4\'c3\'bc / \'b3\'d7\'c0\'cc\'c6\'bc\'ba\'ea \'b0\'b4\'c3\'bc\'b8\'a6 \'c1\'a6\'bf\'dc \'c7\'d1 \'b0\'cd\
--\'c0\'cf\'b9\'dd\'c0\'fb\'c0\'b8\'b7\'ce \'b4\'eb\'b9\'ae\'c0\'da\'b7\'ce \'bd\'c3\'c0\'db\'c7\'d1\'b4\'d9 / String, Array\
--Global Object
-\f1\b s
-\f0\b0  \'b6\'f3\'b0\'ed\'b5\'b5 \'c7\'d1\'b4\'d9 ( Global Object \'bf\'cd \'b4\'d9\'b8\'a3\'b4\'d9)\
-\
-\
-##Standard Built-in Object \'c7\'a5\'c1\'d8 \'ba\'f4\'c6\'ae\'c0\'ce \'b0\'b4\'c3\'bc\
-- \'ba\'ea\'b6\'f3\'bf\'ec\'c0\'fa\'bf\'a1\'bc\'ad\'b4\'c2 window / node\'bf\'a1\'bc\'b1 global\
-- \'c0\'fc\'bf\'aa \'ba\'af\'bc\'f6\'bf\'cd \'c0\'fc\'bf\'aa\'c7\'d4\'bc\'f6\'b4\'c2 window\'c0\'c7 \'c7\'c1\'b7\'ce\'c6\'db\'c6\'bc\'c0\'cc\'b4\'d9\
-\
-## \'c0\'fc\'bf\'aa \'c7\'c1\'b7\'ce\'c6\'db\'c6\'bc\
-- \'be\'ee\'c7\'c3\'b8\'ae\'c4\'c9\'c0\'cc\'bc\'c7 \'c0\'fc\'bf\'aa\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b0\'aa\
-1) Infinity\
-- \'c0\'bd,\'be\'e7\'c0\'c7 \'b9\'ab\'c7\'d1\'b4\'eb\
-2) NaN\
-- Not - a - Number \'bc\'fd\'c0\'da\'b0\'a1 \'be\'c6\'b4\'d4\
-3) undefined\
-\
-## \'c0\'fc\'bf\'aa \'c7\'d4\'bc\'f6 / \'c0\'fc\'bf\'aa \'b8\'de\'bc\'d2\'b5\'e5\
-1) eval()\
-- \'c0\'ce\'c0\'da\'b7\'ce \'b5\'e9\'be\'ee\'bf\'c2 \'b0\'aa\'c0\'bb \'c6\'f2\'b0\'a1 \'b6\'c7\'b4\'c2 \'bd\'c7\'c7\'e0\'c7\'d1\'b4\'d9 - \'ba\'b8\'be\'c8\'bf\'a1 \'b8\'c5\'bf\'ec \'c3\'eb\'be\'e0\'c7\'d1 \'b0\'fc\'b0\'e8\'b7\'ce \'c0\'fd\'b4\'eb\'b7\'ce \'bb\'e7\'bf\'eb\'c7\'d8\'bc\'b1 \'be\'c8\'b5\'c8\'b4\'d9.\
-\
-2) isFinite ()    * \'c7\'c1\'b7\'ce\'c6\'db\'c6\'bc\'b8\'ed\'bf\'a1 is\'b0\'a1 \'b5\'e9\'be\'ee\'b0\'a1\'b8\'e9 boolean\'c0\'bb \'c0\'c7\'b9\'cc\'c7\'d1\'b4\'d9\
-- \'c0\'ce\'c0\'da \'c0\'fc\'b4\'de \'b0\'aa\'c0\'cc \'c0\'af\'c7\'d1\'bc\'f6\'c0\'ce\'c1\'f6 \'b0\'cb\'bb\'e7\'c7\'d1\'b4\'d9. \
-- \'c0\'af\'c7\'d1\'bc\'f6\'c0\'cf \'b0\'e6\'bf\'ec true\
-\
-3) isNaN()\
-- \'c0\'ce\'c0\'da \'c0\'fc\'b4\'de \'b0\'aa\'c0\'cc NaN \'c0\'ce\'c1\'f6 \'b0\'cb\'bb\'e7\
-\
-4) parseFloat()\
-- \'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6\'bf\'a1 \'c0\'fc\'b4\'de\'b5\'c8 
-\b \'b9\'ae\'c0\'da\'bf\'ad
-\b0 \'c0\'bb \'ba\'ce\'b5\'bf\'bc\'d2\'bc\'f6\'c1\'a1 \'bc\'fd\'c0\'da\'b7\'ce \'ba\'af\'c8\'af\'c7\'cf\'bf\'a9 \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9.\
-\
-5) parseInt()\
-- \'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6\'bf\'a1 \'b9\'ae\'c0\'da\'bf\'ad\'c0\'bb \'c1\'a4\'bc\'f6\'c7\'fc \'bc\'fd\'c0\'da\'b7\'ce \'ba\'af\'c8\'af\'c7\'cf\'bf\'a9 \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9\
-- \'bb\'e7\'bf\'eb\'ba\'f3\'b5\'b5 \'b8\'c5\'bf\'ec \'b3\'f4\'b4\'d9\
-- \'b9\'ae\'c0\'da\'b8\'a6\'bf\'ad \'bc\'fd\'c0\'da\'b7\'ce  \'b9\'d9\'b2\'dc \'bd\'c3 \'bb\'e7\'bf\'eb\
-* parseInt( \'c7\'ca\'bc\'f6 \'c0\'ce\'c0\'da,[ \'bf\'c9\'bc\'c7])\
-\
-6) encodeURI() /decodeURI()\
-- d\
-\
-##Standard Built-in Object \'c7\'a5\'c1\'d8 \'ba\'f4\'c6\'ae\'c0\'ce \'b0\'b4\'c3\'bc\
-\
-\
-## \'b1\'e2\'ba\'bb\'c0\'da\'b7\'e1\'c7\'fc\'b0\'fa \'b7\'a1\'c6\'db\'b0\'b4\'c3\'bc(wrapper Object)\
-\'b1\'e2\'ba\'bb\'c0\'da\'b7\'e1\'c7\'fc\'c0\'bb \'b0\'b4\'c3\'bc\'c3\'b3\'b7\'b3 \'bb\'e7\'bf\'eb\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d8 \'b0\'a2\'b0\'a1\'c0\'c7 \'b1\'e2\'ba\'bb\'c0\'da\'b7\'e1\'c7\'fc\'c0\'ba \'b7\'a1\'c6\'db \'b0\'b4\'c3\'bc\'b8\'a6 \'b0\'ae\'b0\'ed\'c0\'d6\'b4\'d9.\
-\
-\
-## \'b1\'e2\'ba\'bb \'c0\'da\'b7\'e1\'c7\'fc string\'c0\'bb \'c0\'a7\'c7\'d1 \'b7\'b9\'c6\'db(wrapper) \'b0\'b4\'c3\'bc\
-\'bd\'ba\'c6\'ae\'b8\'b5\'c0\'ba \'c0\'af\'bb\'e7\'b9\'e8\'bf\'ad \'b0\'b4\'c3\'bc\'c0\'cc\'b4\'d9.\
-\'c0\'af\'bb\'e7\'b9\'e8\'bf\'ad \'b0\'b4\'c3\'bc\'b4\'c2 length \'c7\'c1\'b7\'ce\'c6\'db\'c6\'bc\'b8\'a6 \'b0\'ae\'b0\'ed \'c0\'d6\'b4\'d9. \
-\'bd\'ba\'c6\'ae\'b8\'b5 \'b0\'b4\'c3\'bc\'b4\'c2 String() \'bb\'fd\'bc\'ba\'c0\'da \'c7\'d4\'bc\'f6\'b8\'a6 \'c5\'eb\'c7\'d8 \'bb\'fd\'bc\'ba\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'d9.\
-New String(str);\
-\
-1)String.length\
-- \'b9\'ae\'c0\'da\'bf\'ad \'b3\'bb\'c0\'c7 \'b9\'ae\'c0\'da \'b0\'b9\'bc\'f6\'b8\'a6 \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9.\
-\
-2)String.porototype.charAt()\
-- \'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6\'b7\'ce \'c0\'fc\'b4\'de\'c7\'d1 index \'b9\'f8\'c8\'a3\'bf\'a1 \'c7\'d8\'b4\'e7\'c7\'cf\'b4\'c2 \'c0\'a7\'c4\'a1\'c0\'c7 \'b9\'ae\'c0\'da\'b8\'a6 \'b9\'dd\'c8\'af\
-- \'b9\'f8\'c8\'a3\'b4\'c2 0~ (\'b9\'ae\'c0\'da\'bf\'ad \'b1\'e6\'c0\'cc-1) \'bb\'e7\'c0\'cc\'c0\'c7 \'c1\'a4\'bc\'f6\
-- \'b9\'f8\'c8\'a3\'b0\'a1 0 ~  (\'b9\'ae\'c0\'da\'bf\'ad \'b1\'e6\'c0\'cc-1) \'b8\'a6 \'b9\'fe\'be\'ee\'b3\'ad \'b0\'e6\'bf\'ec \'ba\'f3\'b9\'ae\'c0\'da\'bf\'ad \'b9\'dd\'c8\'af\
-\
-3)String.prototype.indexOf()\
-- \'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6\'b7\'ce \'c0\'fc\'b4\'de\'b5\'c8 \'b9\'ae\'c0\'da \'b6\'c7\'b4\'c2 \'b9\'ae\'c0\'da\'bf\'ad\'c0\'bb \'b4\'eb\'bb\'f3 \'b9\'ae\'c0\'da\'bf\'ad\'bf\'a1\'bc\'ad \'b0\'cb\'bb\'f6\'c7\'cf\'bf\'a9 \'b9\'df\'b0\'df\'b5\'c8 \'b0\'f7\'c0\'c7 index \'b9\'dd\'c8\'af\
-\
-4)String.prototype.lastIndexOf()\
-- \'c0\'a7 \'bf\'cd \'b5\'bf\'c0\'cf\'c7\'cf\'b0\'d4 \'bf\'f2\'c1\'f7\'c0\'cc\'c1\'f6\'b8\'b8 \'b8\'b6\'c1\'f6\'b8\'b7 \'b1\'db\'c0\'da \'c0\'a7\'c4\'a1 \'ba\'ce\'c5\'cd \'c3\'a3\'be\'c6 \'b3\'bd\'b4\'d9.\
-- \'b0\'cb\'bb\'f6\'bd\'c3 \'bd\'c3\'c0\'db \'c1\'f6\'c1\'a1\'c0\'c7 index \'b9\'f8\'c8\'a3\'b0\'a1 0\'c0\'cc \'b5\'c7\'be\'ee \'bf\'aa\'bc\'f8\'c0\'b8\'b7\'ce 0,1,2,3....\'c0\'cc \'b5\'c7\'b4\'c2\'b0\'c7\'be\'c6\'b4\'cf\'b4\'d9\
-\'b1\'e2\'c1\'b8 \'c0\'ce\'b5\'a6\'bd\'ba \'b9\'f8\'c8\'a3\'b8\'a6 \'c3\'a3\'be\'c6\'b3\'bd\'b4\'d9. \'b0\'cb\'bb\'f6 \'b9\'e6\'c7\'e2\'b8\'b8 \'bf\'aa\'bc\'f8\
-\
-5)String.prototype.replace() *** \'b8\'c5\'bf\'ec \'c1\'df\'bf\'e4\
-\'c3\'b9\'b9\'f8\'a4\'8a \'c0\'ce\'c0\'da\'b8\'a6 \'b0\'cb\'bb\'f6\'c7\'d8\'bc\'ad \'b5\'ce\'b9\'f8\'c2\'b0 \'c0\'ce\'c0\'da \'b9\'ae\'c0\'da\'bf\'ad\'b7\'ce \'b4\'eb\'c3\'bc\'c7\'d1\'b4\'d9\
-\'bd\'ba\'c6\'ae\'b8\'b5 \'b0\'b4\'c3\'bc\'c0\'c7 \'b8\'de\'bc\'d2\'b5\'e5\'b4\'c2 \'c0\'fd\'b4\'eb \'bf\'f8\'ba\'bb\'c0\'bb \'b0\'c7\'b5\'e5\'b8\'ae\'c1\'f6 \'be\'ca\'b4\'c2\'b4\'d9.\
-\
-6)String.prototype.split() ***\'b8\'c5\'bf\'ec \'c1\'df\'bf\'e4\
-\'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6\'bf\'a1 \'b5\'fb\'b6\'f3 \'b9\'ae\'c0\'da\'bf\'ad\'c0\'cc \'ba\'d0\'b8\'ae\'b5\'c7\'be\'ee \'b9\'dd\'c8\'af\'b5\'c8\'b4\'d9\
-\'b9\'e8\'bf\'ad\'c0\'bb \'b8\'ae\'c5\'cf\'c0\'b8\'b7\'ce \'b9\'de\'b4\'c2\'b4\'d9\
-\
-7)String.prototype.substring() ***** \'b8\'c5\'bf\'ec\'c1\'df\'bf\'e4\'bf\'e4\
-\'c3\'b9\'c2\'b0 \'c0\'ce\'c0\'da \'c0\'ce\'b5\'a6\'bd\'ba \'b9\'f8\'c8\'a3 \'ba\'ce\'c5\'cd \'b5\'ce\'b9\'f8\'c2\'b0 \'c0\'ce\'c0\'da \'c0\'ce\'b5\'a6\'bd\'ba \'b9\'f8\'c8\'a3\'c0\'c7 \'b9\'ae\'c0\'da\'b1\'ee\'c1\'f6\'b8\'a6 \'b8\'f0\'b5\'ce \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9.\
-\
-\pard\pardeftab720\partightenfactor0
-\cf2 \cb3 \expnd0\expndtw0\kerning0
-8)String.prototype.toLowerCase()*****\
-\'b9\'ae\'c0\'da\'bf\'ad\'c0\'c7 \'b9\'ae\'c0\'da\'b8\'a6 \'b8\'f0\'b5\'ce \'bc\'d2\'b9\'ae\'c0\'da\'b7\'ce \'ba\'af\'b0\'e6\'c7\'d1\'b4\'d9.\
-\
-9)String.prototype.toUpperCase()*****\
-\'b9\'ae\'c0\'da\'bf\'ad\'c0\'c7 \'b9\'ae\'c0\'da\'b8\'a6 \'b8\'f0\'b5\'ce \'b4\'eb\'b9\'ae\'c0\'da\'b7\'ce \'ba\'af\'b0\'e6\'c7\'d1\'b4\'d9.\
-\
-10)String.prototype.trim()\
-\'b9\'ae\'c0\'da\'bf\'ad \'be\'e7\'c2\'ca \'b3\'a1\'bf\'a1 \'c0\'d6\'b4\'c2 \'b0\'f8\'b9\'e9 \'b9\'ae\'c0\'da\'b8\'a6 \'c1\'a6\'b0\'c5\'c7\'d1 \'b9\'ae\'c0\'da\'bf\'ad\'c0\'bb \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9.\
-\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+##Built-in method / property / object
+자바스크립트는 내장 된 기능이 있다
+내장 된 기능과 유사한 기능을 구현하려하면 시간 낭비 돈낭비 심지어 성능도 떨어진다
+ - 그러한 이유로 내장 기능을 숙지 하고 있어야 한다
+자바스크립트는 빌트인이 다른언어 보다 적은편이다
 
-\fs28 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
-\
-## Number Property\
-\
-1) Number.EPSILON *** \'c0\'df \'be\'cb\'be\'c6\'b5\'ce\'b0\'ed \'c0\'d6\'be\'ee\'be\'df\'c7\'d4 \'c4\'c4\'b0\'f8 \'b1\'e2\'ba\'bb \'bc\'d2\'be\'e7 ***\
-\'c7\'d1 \'bc\'fd\'c0\'da\'bf\'cd \'b4\'d9\'b8\'a5 \'bc\'fd\'c0\'da \'bb\'e7\'c0\'cc\'bf\'a1\'bc\'ad \'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'b0\'a1 \'c7\'a5\'c7\'f6\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'b0\'a1\'c0\'e5 \'c0\'db\'c0\'ba \'bc\'f6\
-*\'bc\'d2\'bc\'f6 \'c7\'a5\'c7\'f6\'c0\'cc \'bf\'ec\'b8\'ae\'b0\'a1 \'be\'c6\'b4\'c2\'b0\'cd\'b0\'fa \'b4\'d9\'b8\'a3\'b4\'d9. \'be\'e0\'b0\'a3\'c0\'c7 \'c2\'f7\'c0\'cc\'b0\'a1 \'c0\'d6\'b4\'d9\
-Ex) 0.1 + 0.2 = \cf2 \cb4 \expnd0\expndtw0\kerning0
-0.30000000000000004 \
-\cb3 \'c0\'cc\'bf\'a1 \'bb\'e7\'bc\'d2\'c7\'d1 \'bf\'c0\'c2\'f7\'b0\'a1 \'c5\'a9\'b0\'d4 \'c0\'db\'bf\'eb\'b5\'c7\'b4\'c2 \'ba\'d0\'be\'df\'bf\'a1\'bc\'ad\'b4\'c2 \'b6\'f3\'c0\'cc\'ba\'ea\'b7\'af\'b8\'ae\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'d8\'bc\'ad \'c0\'cc\'b7\'b1 \'bf\'c0\'c2\'f7\'b8\'a6 \'be\'f8\'be\'d8\'b4\'d9.\
-\'b6\'c7\'b4\'c2 \'c0\'fd\'b4\'eb\'b0\'aa\'c0\'bb \'b9\'dd\'c8\'af \'c7\'cf\'b4\'c2 Math.abs\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'d8\'bc\'ad Number.EPSILON \'ba\'b8\'b4\'d9 \'c0\'db\'c0\'b8\'b8\'e9 \'b0\'b0\'c0\'ba\'bc\'f6\'b7\'ce \'c0\'ce\'c1\'a4 \'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'d9.\
-\
-2) Number.MAX_VALUE * \'c7\'c1\'b7\'ce\'c6\'db\'c6\'bc\'b0\'a1 \'b4\'eb\'b9\'ae\'c0\'da\'c0\'ce\'b0\'cd\'c0\'ba \'bb\'f3\'bc\'f6\'b6\'f3\'b4\'c2 \'c0\'c7\'b9\'cc(\'b0\'aa\'c0\'cc \'ba\'af\'c7\'cf\'c1\'f6\'be\'ca\'c0\'bd)\
-\
-##Number Method\
-\
-1) Number.isFinite()\
-\'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6\'bf\'a1 \'c0\'fc\'b4\'de\'b5\'c8 \'b0\'aa\'c0\'cc \'c1\'a4\'bb\'f3\'c0\'fb\'c0\'ce \'c0\'af\'c7\'d1\'bc\'f6\'c0\'ce\'c1\'f6 \'b0\'cb\'bb\'e7\
-*\'c0\'fc\'bf\'aa\'b0\'b4\'c3\'bc\'c0\'c7 isFinite() \'b4\'c2 \'c7\'fc \'ba\'af\'c8\'ad\'b8\'a6 \'c7\'cf\'c1\'f6\'b8\'b8 Number.isFinite() \'c7\'fc\'ba\'af\'c8\'ad \'be\'c8\'c7\'d8\'bc\'ad \'b4\'f5\'bf\'ed \'be\'f6\'b0\'dd\'c7\'cf\'b4\'d9\
-\
-2) Number.isInteger\
-\'c1\'a4\'bc\'f6\'c0\'ce\'c1\'f6 \'c8\'ae\'c0\'ce\'c7\'d8\'bc\'ad Boolean \'b0\'aa \'b9\'dd\'c8\'af\
-\
-3) Number.isNaN()\
-\'c0\'cc \'b6\'c7\'c7\'d1 \'c7\'fc\'ba\'af\'c8\'ad \'be\'f8\'c0\'cc NaN\'c0\'ce\'c1\'f6 \'b0\'cb\'bb\'e7\'c7\'d1\'b4\'d9\
-\
-4) Number.isSafeInteger()\
-\'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'b3\'bb\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'eb\'b0\'a1\'b4\'c9\'c7\'d1 \'c1\'a4\'bc\'f6\'c0\'ce\'c1\'f6 \'c8\'ae\'c0\'ce\'c7\'d1\'b4\'d9.\
-\pard\pardeftab720\partightenfactor0
-\cf5 \cb1 Number\cf6 .isSafeInteger(\cf7 1000000000000000\cf6 )\cb4   \cf8 \cb1 // true\cf6 \cb4 \
-\cf5 \cb1 Number\cf6 .isSafeInteger(\cf7 10000000000000001\cf6 )\cb4  \cf8 \cb1 // false\
-\
-1)  ~  4)\'b1\'ee\'c1\'f6\'b4\'c2 \'b0\'b4\'c3\'bc \'bb\'fd\'bc\'ba\'c0\'bb \'c7\'d8\'bc\'ad \'bb\'e7\'bf\'eb\'c7\'cf\'c1\'f6 \'be\'ca\'b4\'c2 \'bd\'ba\'c5\'d7\'c6\'bd \'b8\'de\'bc\'d2\'b5\'e5\'c0\'cc\'b4\'d9\
-\
-\cf2 \cb3 5) Number.prototype.toExpontial()\
-\'b4\'eb\'bb\'f3\'c0\'bb \'c1\'f6\'bc\'f6 \'c7\'a5\'b1\'e2\'b9\'fd\'c0\'b8\'b7\'ce \'ba\'af\'c8\'af\'c7\'cf\'bf\'a9 \'b9\'ae\'c0\'da\'bf\'ad\'b7\'ce \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9. \
-- \'b8\'de\'bc\'d2\'b5\'e5 \'bb\'e7\'bf\'eb\'bd\'c3 \'b1\'e2\'ba\'bb\'c0\'fb\'c0\'b8\'b7\'ce \'ba\'af\'bc\'f6\'bf\'a1 \'b4\'e3\'be\'c6\'be\'b2\'b1\'e2\'b8\'a6 \'b1\'c7\'c0\'e5\
-\
-6) Number.prototype.Fixed()\
-\'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6\'b7\'ce \'c1\'f6\'c1\'a4\'b5\'c8 \'bc\'d2\'bc\'fd\'c1\'a1\'c0\'da\'b8\'ae\'b8\'a6 \'b9\'dd\'bf\'c3\'b8\'b2\'c7\'cf\'bf\'a9 \'b9\'ae\'c0\'da\'bf\'ad\'b7\'ce \'b9\'dd\'c8\'af\
-- \'b3\'bb\'b0\'a1 \'b9\'d9\'b6\'f3\'b4\'c2 \'bc\'fd\'c0\'da \'c7\'a5\'c7\'f6\'b9\'e6\'bd\'c4\'bf\'a1 \'b8\'c2\'b0\'d4 \'c7\'a5\'c7\'f6\'c7\'cf\'b7\'c1 \'c7\'d2 \'b6\'a7 \'bb\'e7\'bf\'eb\
-\
-7) Number.prototype.toPrecision()\
-\
-8)Number.prototype.toString()\
-\'bc\'fd\'c0\'da\'b8\'a6 \'b9\'ae\'c0\'da\'bf\'ad\'b7\'ce \'ba\'af\'c8\'af\'c7\'cf\'bf\'a9 \'b9\'dd\'c8\'af\
-\'c0\'ce\'c0\'da\'b0\'aa\'c0\'ba \'a1\'ae\'c1\'f8\'b9\'fd\'a1\'af\'c0\'bb \'b3\'aa\'c5\'b8\'b3\'bd\'b4\'d9 2 = 2\'c1\'f8\'b9\'fd / 10\'c0\'ba 10\'c1\'f8\'b9\'fd\
-\
-9) Number.prototype.valueOf()\
-Number \'b0\'b4\'c3\'bc\'c0\'c7 \'b1\'e2\'ba\'bb\'c0\'da\'b7\'e1\'c7\'fc \'b0\'aa\'c0\'bb \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9.\
-\
-\
-\
-\
-##MATH \'b0\'b4\'c3\'bc\
-- Math \'b4\'c2 \'bb\'fd\'bc\'ba\'c0\'da\'b0\'a1\'be\'f8\'b4\'c2 \'c1\'a4\'c0\'fb(static)\'c7\'c1\'b7\'ce\'c6\'db\'c6\'bc\'bf\'cd \'b8\'de\'bc\'d2\'b5\'e5\'c0\'cc\'b4\'d9.\
-\
-## Math Property\
-1) Math.PI\
-\'c6\'c4\'c0\'cc \'b0\'aa \'b9\'dd\'c8\'af  3.14\
-\
-## Math Method\
-\
-1) Math.abs()\
- \'be\'e7\'bc\'f6 \'c0\'fd\'b4\'eb\'b0\'aa \'b9\'dd\'c8\'af\
-\
-2)Math.round()\
-\'bc\'fd\'c0\'da\'b8\'a6 \'b0\'a1\'c0\'e5 \'c0\'ce\'c1\'a2\'c7\'d1 \'c1\'a4\'bc\'f6\'b7\'ce \'bf\'c3\'b8\'b2/\'b3\'bb\'b8\'b2 \'c7\'d1\'b4\'d9.\
-\
-3)Math.sqrt()\
-\'be\'e7\'c0\'c7 \'c1\'a6\'b0\'f6\'b1\'d9 \'b9\'dd\'c8\'af\
-\
-4)Math.ceil()\
-\'c1\'f6\'c1\'a4\'b5\'c8 \'bc\'fd\'c0\'da\'b8\'a6 \'bf\'c3\'b8\'b2\'c7\'d1\'b4\'d9\
-\
-5)Math.floor()\
-\'c1\'f6\'c1\'a4\'b5\'c8 \'bc\'fd\'c0\'da\'b8\'a6 \'b3\'bb\'b8\'b2\'c7\'d1\'b4\'d9\
-\
-6) Math.random()\
-0~1\'bb\'e7\'c0\'cc\'c0\'c7 \'c0\'d3\'c0\'c7 \'bc\'fd\'c0\'da\'b8\'a6 \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9 * 0\'c0\'ba \'c6\'f7\'c7\'d4\'c7\'cf\'c1\'f6\'b8\'b8 1\'c0\'ba \'c6\'f7\'c7\'d4\'c7\'cf\'c1\'f6 \'be\'ca\'b4\'c2\'b4\'d9\
-\
-7) Math.pow()\
-\'c3\'b9\'b9\'f8\'a4\'8a \'c0\'ce\'bc\'f6\'b8\'a6 \'b9\'d8 \'b5\'ce\'b9\'f8\'a4\'8a \'c0\'ce\'bc\'f6\'b8\'a6 \'c1\'f6\'bc\'f6\'b7\'ce \'c7\'cf\'bf\'a9 \'b0\'c5\'b5\'ec\'c1\'a6\'b0\'f6 \'b9\'dd\'c8\'af\
-\
-8)Math.max() ***\
-\'c0\'ce\'bc\'f6 \'c1\'df \'b0\'a1\'c0\'e5 \'c5\'ab \'bc\'f6\'b8\'a6 \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9\
-\pard\pardeftab720\sl340\partightenfactor0
-\cf5 \cb1 Math\cf6 .max(\cf7 1\cf6 ,\cb4  \cf7 \cb1 2\cf6 ,\cb4  \cf7 \cb1 3\cf6 )\cb4  \cb1 ;\cb4   \cf8 \cb1 // 3\
-\
-*\'b9\'e8\'bf\'ad\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'d2 \'b0\'e6\'bf\'ec\
-\pard\pardeftab720\sl340\partightenfactor0
-\cf2 var\cf6 \cb4  \cb1 arr\cb4  \cf2 \cb1 =\cf6 \cb4  \cb1 [\cf7 1\cf6 ,\cb4  \cf7 \cb1 2\cf6 ,\cb4  \cf7 \cb1 3\cf6 ];\cb4 \
-\cf2 \cb1 var\cf6 \cb4  \cb1 max\cb4  \cf2 \cb1 =\cf6 \cb4  \cf5 \cb1 Math\cf6 .max.apply(\cf2 null\cf6 ,\cb4  \cb1 arr);\cb4  \cf8 \cb1 // 3\
-\pard\pardeftab720\sl340\partightenfactor0
+*Built-in === API
 
-\f2\b \cf8 apply
-\f0\b0 \'b4\'c2 \'c7\'d4\'bc\'f6\'b8\'a6 \'c8\'a3\'c3\'e2\'c7\'d8\'c1\'d8\'b4\'d9 \'c0\'cc\'8b\'9a \'b5\'ce\'b9\'f8\'c2\'b0\'c0\'ce\'c0\'da\'b4\'c2 \'b9\'e8\'bf\'ad\'c0\'cc\'b5\'c7\'b0\'ed \'b0\'aa\'c0\'bb \'c0\'fc\'b4\'de\'c7\'d2\'b6\'a7 \'b9\'e8\'bf\'ad\'be\'c8\'c0\'c7 \'b0\'aa\'c0\'bb \'c7\'ae\'be\'ee\'bc\'ad \'c0\'fc\'b4\'de\'c7\'d1\'b4\'d9. \'c0\'cc\'b6\'a7 \'c3\'b9\'b9\'f8\'a4\'8a \'c0\'ce\'c0\'da\'bf\'a1 \ul null\'c0\'bb \'b3\'d6\'be\'ee\'c1\'e0\'be\'df\'c7\'d1\'b4\'d9. *max\'b4\'c2 \'bd\'ba\'c5\'c2\'c6\'bd\'c0\'cc\'b6\'f3\'bc\'ad this\'b0\'a1 \'be\'f8\'b1\'e2 \'b6\'a7\'b9\'ae\'c0\'cc\'b4\'d9\cf2 \cb3 \ulc2 \
-\pard\pardeftab720\partightenfactor0
-\cf2 \ulnone \
-9) Math.min()***\
-\'c0\'ce\'bc\'f6 \'c1\'df \'b0\'a1\'c0\'e5 \'c0\'db\'c0\'ba \'bc\'f6\'b8\'a6 \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9\
-\
-\
-\
-\
-##\'c1\'a4\'b1\'d4 \'c7\'a5\'c7\'f6\'bd\'c4(Requlat Expressin)\
-\'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae  \'b9\'ae\'b9\'fd\'c0\'cc \'be\'c6\'b4\'d1 \'c7\'cf\'b3\'aa\'c0\'c7 \'be\'f0\'be\'ee\'c0\'cc\'b4\'d9.\
-\
-\'b9\'ae\'c0\'da\'bf\'ad\'c0\'bb \'b4\'d9\'b7\'e9\'b4\'d9. \
-\
-1) \'c7\'c3\'b7\'a1\'b1\'d7\
-i : ignore case - \'b4\'eb\'bc\'d2\'b9\'ae\'c0\'da\'b8\'a6 \'b1\'b8\'ba\'b0\'c7\'cf\'c1\'f6 \'be\'ca\'b0\'ed \'b0\'cb\'bb\'f6\
-g: global - \'b9\'ae\'c0\'da\'bf\'ad \'b3\'bb\'c0\'c7 \'b8\'f0\'b5\'e7 \'c6\'d0\'c5\'cf\'c0\'bb \'b0\'cb\'bb\'f6\'c7\'d1\'b4\'d9\
-m: Multi line - \'b9\'ae\'c0\'da\'bf\'ad\'c0\'c7 \'c7\'e0\'c0\'cc \'b9\'d9\'b2\'ee\'b4\'f5\'b6\'f3\'b5\'b5 \'b0\'cb\'bb\'f6\'c0\'bb \'b0\'e8\'bc\'d3\'c7\'d1\'b4\'d9/( \'c1\'d9 \'b9\'d9\'b2\'de \'b9\'ab\'bd\'c3 )\
-\'c7\'c3\'b7\'a1\'b1\'d7\'b4\'c2 \'bf\'c9\'bc\'c7\'c0\'cf \'bb\'d3 \'c7\'ca\'bc\'f6 \'bf\'e4\'bc\'d2\'b4\'c2 \'be\'c6\'b4\'cf\'b4\'d9 \'c7\'ca\'bf\'e4\'c7\'d2 \'b6\'a7 \'bb\'e7\'bf\'eb\'c7\'cf\'c0\'da\
-\
-\
-2) \'c6\'d0\'c5\'cf\
-\'c6\'d0\'c5\'cf\'c0\'ba \'c3\'a3\'b0\'ed\'c0\'da \'c7\'cf\'b4\'c2 \'b4\'eb\'bb\'f3\'c0\'bb \'b9\'ae\'c0\'da\'bf\'ad\'b7\'ce \'c1\'f6\'c1\'a4\'c7\'d1\'b4\'d9.\
-\'b6\'c7\'c7\'d1 \'c6\'af\'ba\'b0\'c7\'d1 \'c0\'c7\'b9\'cc\'b8\'a6 \'b0\'a1\'c1\'f6\'b4\'c2 \'b8\'de\'c5\'b8\'b9\'ae\'c0\'da \'b6\'c7\'b4\'c2 \'b1\'e2\'c8\'a3\'b7\'ce \'c7\'a5\'c7\'f6 \'b0\'a1\'b4\'c9\'c7\'cf\'b4\'d9\
-\
-.\'c0\'ba \'c0\'d3\'c0\'c7\'c0\'c7 \'b9\'ae\'c0\'da \'c7\'d1\'b0\'b3\'b8\'a6 \'c0\'c7\'b9\'cc\
-/. . ./ \'c0\'ba 3\'b0\'b3\'c0\'c7 \'b9\'ae\'c0\'da \'c3\'df\'c3\'e2\
-\
-\
-\
-##Array \'b9\'e8\'bf\'ad******\
-\
-1\'b0\'b3\'c0\'c7 \'ba\'af\'bc\'f6\'bf\'a1 \'bf\'a9\'b7\'af \'b0\'b3\'c0\'c7 \'b0\'aa\'c0\'bb 
-\b \'bc\'f8\'c2\'f7\'c0\'fb\'c0\'b8\'b7\'ce
-\b0  \'c0\'fa\'c0\'e5\'c7\'d2 \'b6\'a7 \'bb\'e7\'bf\'eb\'c7\'d1\'b4\'d9.\
-(\'b0\'b4\'c3\'bc\'b4\'c2 \'bc\'f8\'bc\'ad\'b0\'a1 \'ba\'b8\'c0\'e5\'b5\'c7\'c1\'f6 \'be\'ca\'b4\'c2\'b4\'d9)\
-\
-##\'b9\'e8\'bf\'ad \'b8\'ae\'c5\'cd\'b7\'b2\
-[] \'b4\'eb\'b0\'fd\'c8\'a3\'b7\'ce \'b9\'ad\'be\'ee\'bc\'ad \'bb\'fd\'bc\'ba\'c7\'d1\'b4\'d9.\
- var arr = [] ; \uc0\u8212 > \'ba\'f3\'b9\'e8\'bf\'ad\
-\'b9\'e8\'bf\'ad\'bf\'a1 \'b5\'e9\'be\'ee\'b0\'a1\'b4\'c2 \'b0\'aa\'c0\'ba \'bf\'e4\'bc\'d2(element)\'b6\'f3\'b0\'ed \'c7\'cf\'b0\'ed \'c0\'cc\'b4\'c2 \'bc\'f8\'bc\'ad\'b0\'a1 \'c0\'d6\'b4\'d9.\
-\'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'b4\'c2 \'b9\'e8\'bf\'ad\'be\'c8\'c0\'c7 \'c0\'da\'b7\'e1\'c7\'fc\'bd\'c4 \'b0\'a2\'b0\'a2 \'b4\'de\'b6\'f3\'b5\'b5 \'b9\'ab\'b9\'e6\'c7\'cf\'b4\'d9\
-\
-\'b9\'e8\'bf\'ad \'bf\'e4\'bc\'d2\'c0\'c7 \'c3\'df\'b0\'a1\
-\'b9\'e8\'bf\'ad\'b5\'b5 \'bb\'fd\'bc\'ba \'c0\'cc\'c8\'c4 \'b5\'bf\'c0\'fb\'c0\'b8\'b7\'ce \'bf\'e4\'bc\'d2 \'c3\'df\'b0\'a1 \'b0\'a1\'b4\'c9\'c7\'cf\'b4\'d9\
-var arr = [];\
-\'c0\'a7 \'bb\'f3\'c8\'b2\'bf\'a1\'bc\'ad \'be\'c6\'b7\'a1 \'bf\'cd \'b0\'b0\'c0\'cc \'c7\'cf\'b8\'e9 \'bf\'e4\'bc\'d2\'b0\'a1 \'c3\'df\'b0\'a1 \'b5\'c8\'b4\'d9\
-arr[0] = \'a1\'aeone\'a1\'af;\
-arr[1] = \'a1\'aftwo;\
-\
-1)  Array.length\
-\'bf\'e4\'bc\'d2\'c0\'c7 \'b0\'b9\'bc\'f6\'b8\'a6 \'b3\'aa\'c5\'b8\'b3\'bf\
-\
-## Array Method\
-\
-1) Array.isArray()\
-\'b0\'b4\'c3\'bc\'b0\'a1 \'b9\'e8\'bf\'ad\'c0\'cc\'b8\'e9 true \'be\'c6\'b4\'cf\'b8\'e9 false\
-\
-2) Array.prototype.indexOf()\
-\'c0\'ce\'c0\'da\'b7\'ce \'c1\'f6\'c1\'a4\'b5\'c8 \'bf\'e4\'bc\'d2\'b8\'a6 \'b9\'e8\'bf\'ad\'bf\'a1\'bc\'ad \'b0\'cb\'bb\'f6\'c7\'cf\'bf\'a9 \'c0\'ce\'b5\'a6\'bd\'ba\'b8\'a6 \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9.\
-\
-3)Array.prototype.concat(item\'a1\'a6)\
-\'c0\'ce\'bc\'f6\'b7\'ce \'b3\'d1\'be\'ee\'bf\'c2 \'b0\'aa \'b6\'c7\'b4\'c2 \'b9\'e8\'bf\'ad\'c0\'bb \'c0\'da\'bd\'c5\'c0\'c7 \'ba\'b9\'bb\'e7\'ba\'bb\'bf\'a1 \'bf\'e4\'bc\'d2\'b7\'ce \'c3\'df\'b0\'a1\'c7\'cf\'b0\'ed \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9.\
-\pard\pardeftab720\sl340\partightenfactor0
+*String과 Array 중요하다
+*Array: 순서가 있고, for문에서 순회가능,  다루기 편함 array의 built-in기능이 우수하다
 
-\b \cf2 \cb1 var
-\b0 \cf6 \cb4  \cb1 c\cb4  
-\b \cf2 \cb1 =
-\b0 \cf6 \cb4  \cb1 a.concat(b);\cb4 \
-\cb1 console.log(c);\cb4  \cf8 \cb1 // ['a', 'b', 'c', 'x', 'y', 'z']\
-\'c0\'a7\'bf\'cd \'b0\'b0\'c0\'ba \'b0\'e6\'bf\'ec \'b9\'e8\'bf\'ad \'c0\'da\'c3\'bc\'b8\'a6 \'c3\'df\'b0\'a1\'c7\'cf\'b4\'c2\'b0\'cd\'c0\'cc \'be\'c6\'b4\'d1 \'c7\'d8\'b4\'e7 \'b9\'e8\'bf\'ad \'be\'c8 \'bf\'e4\'bc\'d2\'b5\'e9\'c0\'bb \'c3\'df\'b0\'a1\'c7\'d1\'b4\'d9.\
-* \'bf\'f8\'ba\'bb \'b9\'e8\'bf\'ad\'c0\'ba \'ba\'af\'b0\'e6 \'b5\'c7\'c1\'f6 \'be\'ca\'b4\'c2\'b4\'d9.\cf2 \cb3 \
-\pard\pardeftab720\partightenfactor0
-\cf2 \
-4)Array.prototype.join()\
-\'b9\'e8\'bf\'ad\'bf\'e4\'bc\'d2 \'c0\'fc\'c3\'bc\'b8\'a6 \'bf\'ac\'b0\'e1\'c7\'cf\'bf\'a9 \'b9\'ae\'c0\'da\'bf\'ad\'c0\'bb \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9.\
-\
-5) Array.prototype.pop()\
-\'b9\'e8\'bf\'ad \'b8\'b6\'c1\'f6\'b8\'b7 \'bf\'e4\'bc\'d2\'b8\'a6 \'c1\'a6\'b0\'c5\'c7\'cf\'b0\'ed \'c1\'a6\'b0\'c5\'c7\'d1 \'bf\'e4\'bc\'d2\'b8\'a6 \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9.\
-* \'bf\'f8\'ba\'bb \'b9\'e8\'bf\'ad\'c0\'cc \'ba\'af\'b0\'e6\'b5\'c8\'b4\'d9.\
-\
-6) Array.prototype.push()\
-\'c0\'ce\'c0\'da\'b7\'ce \'c0\'fc\'b4\'de\'c7\'d1 \'c7\'d7\'b8\'f1\'c0\'bb \'b9\'e8\'bf\'ad\'c0\'c7 \'b3\'a1\'bf\'a1 \'c3\'df\'b0\'a1\'c7\'d1\'b4\'d9.\
-\'c0\'ce\'c0\'da\'b0\'a1 \'b9\'e8\'bf\'ad\'c0\'ce \'b0\'e6\'bf\'ec \'b9\'e8\'bf\'ad \'c0\'da\'c3\'bc\'b8\'a6 \'c3\'df\'b0\'a1 \'c7\'d1\'b4\'d9.\
-\
-7) Array.prototype.reverse()\
-\'b9\'e8\'bf\'ad \'bf\'e4\'bc\'d2\'c0\'c7 \'bc\'f8\'bc\'ad\'b8\'a6 \'b9\'dd\'b4\'eb\'b7\'ce \'ba\'af\'b0\'e6\'c7\'d1\'b4\'d9. \'c0\'cc\'b6\'a7 \'bf\'f8\'ba\'bb \'b9\'e8\'bf\'ad\'c0\'cc \'ba\'af\'b0\'e6 \'b5\'c8\'b4\'d9\
-\'b9\'dd\'c8\'af\'b0\'aa\'c0\'ba \'ba\'af\'b0\'e6\'b5\'c8 \'b9\'e8\'bf\'ad\'c0\'cc\'b4\'d9\
-\
-8)Array.prototype.shift()\
-\pard\pardeftab720\sl360\partightenfactor0
-\cf6 \cb9 \'b9\'e8\'bf\'ad\'bf\'a1\'bc\'ad \'c3\'b9\'bf\'e4\'bc\'d2\'b8\'a6 \'c1\'a6\'b0\'c5\'c7\'cf\'b0\'ed \'c1\'a6\'b0\'c5\'c7\'d1 \'bf\'e4\'bc\'d2\'b8\'a6 \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9. \'b8\'b8\'be\'e0 \'ba\'f3 \'b9\'e8\'bf\'ad\'c0\'cf \'b0\'e6\'bf\'ec\uc0\u160 \cf10 \cb11 undefined\cf6 \cb9 \'b8\'a6 \'b9\'dd\'c8\'af\'c7\'d1\'b4\'d9.\
-\
-9)\cf2 \cb3 Array.prototype.slice(start, end) 
-\b *****
-\b0 \
-\'b9\'e8\'bf\'ad\'c0\'c7 \'c6\'af\'c1\'a4 \'ba\'ce\'ba\'d0\'bf\'a1 \'b4\'eb\'c7\'d1 \'ba\'b9\'bb\'e7\'ba\'bb \'bb\'fd\'bc\'ba\
-\
-10)Array.prototype.splice(start, deleteCount, item...)
-\b *****
-\b0 \
-\'c3\'b9\'c2\'b0 \'c0\'ce\'c0\'da \'ba\'ce\'c5\'cd 2\'b9\'f8\'c2\'b0 \'c0\'ce\'c0\'da \'b0\'b3\'bc\'f6\'c0\'c7 \'bf\'e4\'bc\'d2\'b8\'a6 \'c1\'a6\'b0\'c5 \'c8\'c4 \'c1\'a6\'b0\'c5\'b5\'c8 \'bf\'e4\'bc\'d2\'b8\'a6 \'b9\'e8\'bf\'ad\'b7\'ce \'b9\'dd\'c8\'af\
-\
-3\'b9\'f8\'c2\'b0 \'c0\'ce\'c0\'da \'ba\'ce\'c5\'cd\'b4\'c2 \'bb\'f5\'b7\'d3\'b0\'d4 \'c3\'df\'b0\'a1\'c7\'d2 \'bf\'e4\'bc\'d2\'b0\'a1 \'b5\'c8\'b4\'d9.\
-\
-\pard\pardeftab720\partightenfactor0
-\cf2 11) Array.prototype.sort**\
-\'b9\'e8\'bf\'ad\'c0\'c7 \'b3\'bb\'bf\'eb\'c0\'bb \'c1\'a4\'b7\'c4\'c7\'d1\'b4\'d9\
-\
-\
-12) Array.prototype.forEach ***************\
-For \'b9\'ae\'c0\'c7 \'c0\'cf\'c1\'be\'c0\'cc\'b4\'d9\
-for\'b9\'ae\'c0\'bb \'b5\'fb\'b7\'ce \'be\'b2\'c1\'f6 \'be\'ca\'be\'c6\'b5\'b5 \'bc\'f8\'c8\'b8\'c7\'cf\'b8\'e9\'bc\'ad \'c1\'f6\'c1\'a4\
-function( item , index, array)\
-\
-13) Array.prototype.map() *****************\
-\'bf\'f8\'ba\'bb \'b9\'e8\'bf\'ad\'c0\'c7 \'b0\'aa\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'cf\'bf\'a9 \'bb\'f5\'b7\'ce\'bf\'ee \'b9\'e8\'bf\'ad\'c0\'bb \'bb\'fd\'bc\'ba \'c7\'d2 \'bd\'c3 \'bb\'e7\'bf\'eb\'c7\'d1\'b4\'d9\
-\'bf\'f8\'ba\'bb \'b9\'e8\'bf\'ad\'bf\'a1 \'b8\'c5\'bc\'d2\'b5\'e5\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'b0\'ed \'b1\'d7 \'b0\'e1\'b0\'fa\'b0\'aa\'c0\'bb \'b8\'ae\'c5\'cf\'c7\'cf\'b8\'e9 \'bb\'f5\'b7\'ce\'bf\'ee \'b9\'e8\'bf\'ad \'bb\'fd\'bc\'ba\'b5\'c8\'b4\'d9.\
-\'b8\'ae\'c5\'cf\'c0\'bb \'c7\'cf\'c1\'f6 \'be\'ca\'c0\'b8\'b8\'e9 \'bb\'f5\'b7\'ce\'bf\'ee \'b9\'e8\'bf\'ad\'bf\'a1 \'b9\'dd\'bf\'b5\'b5\'c7\'c1\'f6 \'be\'ca\'b4\'c2\'b4\'d9.\
-\uc0\u160 \
-\
 
-\f3\fs24 \
-\pard\pardeftab720\sl360\partightenfactor0
-\cf2 \cb3 # \'bd\'c7\'c7\'e0 \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae\'bf\'cd \'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'c0\'c7 \'b5\'bf\'c0\'db \'bf\'f8\'b8\'ae\
-  * \'c0\'df \'be\'cb\'b8\'e9 \'b5\'f0\'b9\'f6\'b1\'eb\'c0\'bb \'c0\'df \'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'d9.\
-## \'bd\'c7\'c7\'e0 \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae\
-  * \'bd\'c7\'c7\'e0 \'b0\'a1\'b4\'c9\'c7\'d1 \'c4\'da\'b5\'e5\'b8\'a6 \'c7\'fc\'bb\'f3\'c8\'ad\'c7\'cf\'b0\'ed \'b1\'b8\'ba\'d0\'c7\'cf\'b4\'c2 \'c3\'df\'bb\'f3\'c0\'fb \'b0\'b3\'b3\'e4(ECMAScript)\
-    * \'bd\'c7\'c7\'e0 \'b0\'a1\'b4\'c9\'c7\'d1 \'c4\'da\'b5\'e5: \'c0\'fc\'bf\'aa\'c4\'da\'b5\'e5\'bf\'cd \'c7\'d4\'bc\'f6\'c4\'da\'b5\'e5(Eval\'c7\'d4\'bc\'f6 \'c4\'da\'b5\'e5\'b4\'c2 \'bb\'e7\'bf\'eb \'b1\'dd\'c1\'f6)\
-  * \'c4\'da\'b5\'e5 \'bd\'c7\'c7\'e0\'c0\'bb \'c0\'a7\'c7\'d1 \'c1\'a4\'ba\'b8\
-    * \'ba\'af\'bc\'f6: \'c0\'fc\'bf\'aa\'ba\'af\'bc\'f6, \'c1\'f6\'bf\'aa\'ba\'af\'bc\'f6, \'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6, \'b0\'b4\'c3\'bc\'c0\'c7 \'c7\'c1\'b7\'ce\'c6\'db\'c6\'bc.\
-    * \'c7\'d4\'bc\'f6 \'bc\'b1\'be\'f0: \'c7\'d4\'bc\'f6\'b8\'ed(\'b9\'ab\'b8\'ed\'c7\'d4\'bc\'f6 \'c1\'a6\'bf\'dc)\'b0\'fa \'c7\'d4\'bc\'f6 \'c0\'da\'c3\'bc  \
-    * \'ba\'af\'bc\'f6\'c0\'c7 \'c0\'af\'c8\'bf\'b9\'fc\'c0\'a7(Scope)\
-    * this: \'c0\'cc this\'b0\'a1 \'b0\'a1\'b8\'ae\'c5\'b0\'b4\'c2 \'b0\'cd\'c0\'cc \'b9\'ab\'be\'f9\'c0\'ce\'b0\'a1?\
- * \'bd\'c7\'c7\'e0 \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae \'bd\'ba\'c5\'c3(\'c4\'dd \'bd\'ba\'c5\'c3)\'b0\'fa \'c4\'da\'b5\'e5 \'bd\'c7\'c7\'e0 \'bc\'f8\'bc\'ad\
-   * \'bd\'c7\'c7\'e0 \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae(EC)\'b0\'a1 \'bd\'d7\'c0\'cc\'b4\'c2 \'b8\'de\'b8\'f0\'b8\'ae\'bb\'f3\'c0\'c7 \'b0\'f8\'b0\'a3\
-   * \'c0\'fc\'c0\'fc \'bd\'c7\'c7\'e0 \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae\'b4\'c2 \'ba\'ea\'b6\'f3\'bf\'ec\'c0\'fa\'b8\'a6 \'c1\'be\'b7\'e1\'c7\'d2 \'b6\'a7\'b1\'ee\'c1\'f6 \'b0\'e8\'bc\'d3 \'b8\'de\'b8\'f0\'b8\'ae \'b0\'f8\'b0\'a3 \'c1\'a1\'c0\'af\
-\
-## \'bd\'c7\'c7\'e0 \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae\'c0\'c7 3\'b0\'a1\'c1\'f6 \'b0\'b4\'c3\'bc\
-  1. Variable Object(\'ba\'af\'bc\'f6\'b0\'b4\'c3\'bc)\
-  * \'ba\'af\'bc\'f6, \'b8\'c5\'b0\'b3\'ba\'af\'bc\'f6(parameter), \'c0\'ce\'bc\'f6\'c1\'a4\'ba\'b8(arguments), \'c7\'d4\'bc\'f6\'bc\'b1\'be\'f0(\'ba\'af\'bc\'f6\'b7\'ce \'c3\'eb\'b1\'de\'b5\'c7\'b4\'c2 \'c7\'d4\'bc\'f6\'c7\'a5\'c7\'f6\'bd\'c4\'c0\'ba \'c1\'a6\'bf\'dc)\'c0\'bb \'b4\'e3\'b0\'ed \'c0\'d6\'c0\'bd.\
-  * \'c0\'fc\'bf\'aa \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae\'bf\'a1\'bc\'ad VO\'b4\'c2 \'c0\'fc\'bf\'aa\'b0\'b4\'c3\'bc(GO/ window, global)\'b8\'a6 \'b0\'a1\'b8\'a3\'c5\'b0\'b8\'e7 \'b1\'d7 \'be\'c8\'bf\'a1 \'bc\'bc\'c6\'c3\'c7\'d8 \'b3\'f5\'b4\'c2\'b4\'d9. (\'c0\'fc\'bf\'aa \'b0\'b4\'c3\'bc\'b4\'c2 \'c0\'fc\'bf\'aa \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae \'c0\'cc\'c0\'fc\'c0\'ce, \'ba\'ea\'b6\'f3\'bf\'ec\'c0\'fa\'b8\'a6 \'c4\'d1\'b4\'c2 \'bc\'f8\'b0\'a3 \'c5\'c2\'c3\'ca\'ba\'ce\'c5\'cd \'c1\'b8\'c0\'e7\'c7\'df\'b4\'d9.)\
-    * \'c0\'fc\'bf\'aa \'ba\'af\'bc\'f6\'b4\'c2 \'bf\'d6 \'c0\'fc\'bf\'aa \'b0\'b4\'c3\'bc\'c0\'c7 \'c7\'c1\'b7\'ce\'c6\'db\'c6\'bc\'c0\'ce\'b0\'a1\'bf\'a1 \'b4\'eb\'c7\'d1 \'c0\'cc\'be\'df\'b1\'e2\
-    * \'c7\'d4\'bc\'f6 \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae\'bf\'a1\'bc\'ad VO\'b4\'c2 \'c8\'b0\'bc\'ba\'b0\'b4\'c3\'bc(AO, Activation Object)\'b8\'a6 \'b0\'a1\'b8\'ae\'c5\'b2\'b4\'d9.\
-\
-  2. Scope Chain\
-  * \'b4\'d9\'c0\'cc\'b7\'ba\'c6\'ae\'b7\'ce \'b0\'a1\'b8\'ae\'c5\'b0\'b4\'c2\'b0\'d4 \'be\'c6\'b4\'cf\'b4\'d9. \'bd\'ba\'c4\'da\'c7\'c1\'b0\'a1 \'bf\'a9\'b7\'af \'b0\'b3\'b0\'a1 \'c0\'d6\'c0\'bb \'bc\'f6 \'c0\'d6\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'b9\'e8\'bf\'ad\'c3\'b3\'b7\'b3 \'b8\'ae\'bd\'ba\'c6\'ae\'c8\'ad\'b5\'c8 \'b4\'dc\'b0\'e8\'b8\'a6 \'b0\'c5\'c4\'a3\'b4\'d9. \'bc\'f8\'bc\'ad\'b0\'a1 \'c0\'d6\'be\'ee\'bc\'ad 0\'c0\'ce \'c0\'da\'bd\'c5\'c0\'c7 AO\'b8\'a6 \'ba\'b8\'b0\'ed \'b1\'d7\'b7\'a1\'b5\'b5 \'be\'f8\'c0\'b8\'b8\'e9 \'b5\'ce\'b9\'f8\'c2\'b0\'c0\'ce 1, \'bb\'f3\'c0\'a7(\'ba\'bb \'bf\'b9\'c1\'a6\'bf\'a1\'bc\'ad\'b4\'c2 \'c0\'fc\'bf\'aa)\'c0\'ce GO\'b8\'a6 \'ba\'bb\'b4\'d9.\
-   * \'c1\'ef, \'b1\'d7 \'c1\'df\'b0\'a3 \'b4\'dc\'b0\'e8\'b4\'c2 \'bd\'ba\'c4\'da\'c7\'c1 \'c6\'c7\'b4\'dc\'c0\'bb \'c0\'a7\'c7\'d1 \'b4\'dc\'b0\'e8\
-\
-  3. this value\
-  * this \'c7\'c1\'b7\'ce\'c6\'db\'c6\'bc\'bf\'a1\'b4\'c2 this \'b0\'aa\'c0\'cc \'c7\'d2\'b4\'e7\'b5\'c8\'b4\'d9. this\'bf\'a1 \'c7\'d2\'b4\'e7\'b5\'c7\'b4\'c2 \'b0\'aa\'c0\'ba \'c7\'d4\'bc\'f6 \'c8\'a3\'c3\'e2 \'c6\'d0\'c5\'cf\'bf\'a1 \'c0\'c7\'c7\'d8 \'b0\'e1\'c1\'a4\'b5\'c8\'b4\'d9.\
-\
-## \'bd\'c7\'c7\'e0 \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae\'c0\'c7 \'bb\'fd\'bc\'ba \'b0\'fa\'c1\'a4\
-  ```javascript\
-  // \'c6\'c7\'b4\'dc \'bf\'b9\'c1\'a6\
-\
-  var x = 'xxx';\
-\
-  function foo () \{\
-    var y = 'yyy';\
-\
-    function bar () \{\
-      var z = 'zzz';\
-      console.log(x + y + z);\
-    \}\
-    bar();\
-  \}\
-  foo();\
-  ```\
-  \
-  * \'c0\'fc\'bf\'aa \'c4\'da\'b5\'e5\'bf\'a1\'c0\'c7 \'c1\'f8\'c0\'d4\
-    * \'c0\'cc \'bb\'f3\'c5\'c2\'b4\'c2 \'c0\'fc\'bf\'aa \'c4\'da\'b5\'e5 \'bd\'c7\'c7\'e0 \'c0\'fc \'b4\'dc\'b0\'e8\
-    * \'c3\'ca\'b1\'e2 \'bb\'f3\'c5\'c2\'c0\'c7 \'c0\'fc\'bf\'aa\'b0\'b4\'c3\'bc\'b4\'c2 \'ba\'f4\'c6\'ae\'c0\'ce \'b0\'b4\'c3\'bc\'bf\'cd BOM, DOM \'b5\'ee\'c0\'cc \'c0\'d6\'b4\'d9.\
-    1. \'bd\'ba\'c4\'da\'c7\'c1 \'c3\'bc\'c0\'ce\'c0\'c7 \'bb\'fd\'bc\'ba\'b0\'fa \'c3\'ca\'b1\'e2\'c8\'ad\
-    2. Variable Instantiation(\'ba\'af\'bc\'f6 \'b0\'b4\'c3\'bc\'c8\'ad) \'bd\'c7\'c7\'e0\
-        1. \'c7\'d4\'bc\'f6 foo\'c0\'c7 \'bc\'b1\'be\'f0 \'c3\'b3\'b8\'ae : \'c7\'d4\'bc\'f6 \'c8\'a3\'c0\'cc\'bd\'ba\'c6\'c3\'c0\'c7 \'bf\'f8\'b8\'ae(scope\'c6\'c7\'b4\'dc\'c0\'bb \'c0\'a7\'c7\'d8 \'c0\'cc\'b9\'cc \'c7\'d4\'bc\'f6\'c0\'c7 \'b3\'bb\'bf\'eb\'c0\'bb \'b4\'d9 \'b0\'ae\'b0\'ed \'c0\'d6\'c0\'bd)\
-        2.  \'ba\'af\'bc\'f6 x\'c0\'c7 \'bc\'b1\'be\'f0 \'c3\'b3\'b8\'ae : \'ba\'af\'bc\'f6 \'c8\'a3\'c0\'cc\'bd\'ba\'c6\'c3\'c0\'c7 \'bf\'f8\'b8\'ae(\'bc\'b1\'be\'f0, \'c3\'ca\'b1\'e2\'c8\'ad\'b8\'b8 \'bc\'f6\'c7\'e0)\
-    3. this value \'b0\'e1\'c1\'a4\
-\
-  * \'c0\'fc\'bf\'aa \'c4\'da\'b5\'e5\'c0\'c7 \'bd\'c7\'c7\'e0\
-    1. \'ba\'af\'bc\'f6 \'b0\'aa\'c0\'c7 \'c7\'d2\'b4\'e7 : \'c0\'fc\'bf\'aa\'ba\'af\'bc\'f6 x\'bf\'a1 \'b9\'ae\'c0\'da\'bf\'ad \'a1\'aexxx\'a1\'af\'b8\'a6 \'c7\'d2\'b4\'e7\
-    2. \'c7\'d4\'bc\'f6 foo\'c0\'c7 \'bd\'c7\'c7\'e0 : `\'c0\'fc\'bf\'aa \'c4\'da\'b5\'e5\'bf\'a1\'c0\'c7 \'c1\'f8\'c0\'d4`\'c0\'c7 \'b0\'e6\'bf\'ec\'bf\'cd \'b8\'b6\'c2\'f9\'b0\'a1\'c1\'f6\'b7\'ce \'b4\'d9\'c0\'bd 3\'b4\'dc\'b0\'e8 \'b0\'c5\'c4\'a7\
-        1. \'bd\'ba\'c4\'da\'c7\'c1 \'c3\'bc\'c0\'ce\'c0\'c7 \'bb\'fd\'bc\'ba\'b0\'fa \'c3\'ca\'b1\'e2\'c8\'ad\
-        2. Variable Instantiation \'bd\'c7\'c7\'e0\
-        3.  this value \'b0\'e1\'c1\'a4\
-\
-  * foo \'c7\'d4\'bc\'f6 \'c4\'da\'b5\'e5\'c0\'c7 \'bd\'c7\'c7\'e0\
-    * `\'c0\'fc\'bf\'aa \'c4\'da\'b5\'e5\'c0\'c7 \'bd\'c7\'c7\'e0`\'b0\'fa \'b8\'b6\'c2\'f9\'b0\'a1\'c1\'f6 \'b0\'fa\'c1\'a4\'c0\'bb \'b9\'dd\'ba\'b9\'c7\'d1\'b4\'d9.\
-    1. \'ba\'af\'bc\'f6 \'b0\'aa\'c0\'c7 \'c7\'d2\'b4\'e7: \'c1\'f6\'bf\'aa\'ba\'af\'bc\'f6 y\'bf\'a1 \'b9\'ae\'c0\'da\'bf\'ad 'yyy'\'b8\'a6 \'c7\'d2\'b4\'e7\
-    2. \'c7\'d4\'bc\'f6 bar\'c0\'c7 \'bd\'c7\'c7\'e0: \'c0\'cc \'b4\'dc\'b0\'e8\'bf\'a1\'bc\'ad `console.log(x + y + z);`\'c0\'c7 \'bd\'c7\'c7\'e0 \'b0\'e1\'b0\'fa\'b4\'c2 xxxyyyzzz\'b0\'a1 \'b5\'c8\'b4\'d9.\
-\
-\
-# \'c5\'ac\'b7\'ce\'c0\'fa - Closure\
-\
-##\'c5\'ac\'b7\'ce\'c0\'fa\'c0\'c7 \'b0\'b3\'b3\'e4\
-\'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'bf\'a1\'bc\'ad \'c1\'df\'bf\'e4\'c7\'d1 \'b0\'b3\'b3\'e4. \
-*\'c0\'cf\'b1\'de\'b0\'b4\'c3\'bc : \'b0\'b4\'c3\'bc\'b8\'a6 \'b0\'aa \'c3\'b3\'b7\'b3 \'bb\'e7\'bf\'eb \'b0\'a1\'b4\'c9\
-\'c0\'cf\'b1\'de \'b0\'b4\'c3\'bc\'b8\'a6 \'c3\'eb\'b1\'de\'c7\'cf\'b4\'c2 \'c7\'d4\'bc\'f6\'c7\'fc \'be\'f0\'be\'ee\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'eb \'b5\'c8\'b4\'d9.\
-\'b3\'bb\'ba\'ce\'c7\'d4\'bc\'f6\'b0\'a1 \'c2\'fc\'c1\'b6\'c7\'cf\'b4\'c2 \'bf\'dc\'ba\'ce\'c7\'d4\'bc\'f6\'c0\'c7 \'c1\'f6\'bf\'aa\'ba\'af\'bc\'f6\'b0\'a1 \'bf\'dc\'ba\'ce\'c7\'d4\'bc\'f6\'bf\'a1 \'c0\'c7\'c7\'d8 \'b3\'bb\'ba\'ce\'c7\'d4\'bc\'f6\'b0\'a1 \'b9\'dd\'c8\'af\'b5\'c8 \'c0\'cc\'c8\'c4\'bf\'a1\'b5\'b5 life-cycle\'c0\'cc \'c0\'af\'c1\'f6\'b5\'c7\'b4\'c2 \'b0\'cd\'c0\'bb \'c0\'c7\'b9\'cc. \'c0\'cc\'b6\'a7\'c0\'c7 \'ba\'af\'bc\'f6\'b4\'c2 \'c0\'da\'c0\'af\'ba\'af\'bc\'f6\'c0\'cc\'b4\'d9.\
- - \'c1\'ef \'b3\'bb\'ba\'ce\'c7\'d4\'bc\'f6\'b4\'c2 \'bf\'dc\'ba\'ce\'c7\'d4\'bc\'f6\'b8\'a6 \'c2\'fc\'c1\'b6 \'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'d9.\
- - \'b3\'bb\'ba\'ce\'c7\'d4\'bc\'f6\'c0\'c7 \'bd\'ba\'c4\'da\'c7\'c1\'b4\'c2 \'bf\'dc\'ba\'ce\'c7\'d4\'bc\'f6\'c0\'c7 \'bd\'ba\'c4\'da\'c7\'c1\'b8\'a6 \'c2\'fc\'c1\'b6\'c7\'d2\'bc\'f6 \'c0\'d6\'b4\'d9.\
-\
-\
-##\'c5\'ac\'b7\'ce\'c0\'fa \'c0\'fc\'c1\'a6 \'c1\'b6\'b0\'c7\
- \'bf\'dc\'ba\'ce\'c7\'d4\'bc\'f6 \'bf\'cd \'b3\'bb\'ba\'ce\'c7\'d4\'bc\'f6\'b7\'ce \'c0\'cc\'b7\'ef\'c1\'ae \'c0\'d6\'b0\'ed \'b3\'bb\'ba\'ce\'c7\'d4\'bc\'f6\'b4\'c2 \'bf\'dc\'ba\'ce\'c7\'d4\'bc\'f6\'b8\'a6 \'c2\'fc\'c1\'b6\'c7\'d1\'b4\'d9\
-\
-## \'c5\'ac\'b7\'ce\'c0\'fa \'b4\'dc\'c1\'a1\
-\'b9\'ab\'ba\'d0\'ba\'b0\'c7\'d1 \'c5\'ac\'b7\'ce\'c0\'fa\'c0\'c7 \'bb\'e7\'bf\'eb\'c0\'ba \'b5\'e6\'ba\'b8\'b4\'d9\'b4\'c2 \'bd\'c7\'c0\'cc \'b8\'b9\'b4\'d9. \'c5\'ac\'b7\'ce\'c0\'fa \'c0\'db\'b5\'bf\'c0\'cc \'c1\'be\'b7\'e1\'b0\'a1 \'b5\'c7\'be\'ee\'b5\'b5 \'bf\'dc\'ba\'ce\'c7\'d4\'bc\'f6 \'c0\'c7 VO\'b0\'a1 \'b8\'de\'b8\'f0\'b8\'ae\'bf\'a1 \'b3\'b2\'be\'c6\'c0\'d6\'b0\'d4 \'b5\'c7\'be\'ee \'b8\'b9\'c0\'cc \'bb\'e7\'bf\'eb\'c7\'cf\'b8\'e9 \'c7\'d8\'b4\'e7 \'b0\'c7\'c0\'cc \'b4\'a9\'c0\'fb\'b5\'c7\'be\'ee \'bc\'ba\'b4\'c9\'c0\'cc \'b6\'b3\'be\'ee\'c1\'f6\'b0\'d4 \'b5\'c8\'b4\'d9. \
-\
-## \'bf\'b9\'c1\'a6\
-\'be\'c6\'b7\'a1\'c0\'c7 \'b8\'b5\'c5\'a9\'b8\'a6 \'c5\'eb\'c7\'d8 \'c5\'ac\'b7\'ce\'c0\'fa \'bf\'b9\'c1\'a6\'b8\'a6 \'b0\'f8\'ba\'ce\'c7\'d8\'ba\'b8\'c0\'da\
-[\'bf\'b9\'c1\'a6 \'b8\'b5\'c5\'a9](http://poiemaweb.com/js-closure#2-\'c5\'ac\'b7\'ce\'c0\'fa\'c0\'c7-\'c8\'b0\'bf\'eb)\
-\
-# \'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae \'b0\'b4\'c3\'bc \'c1\'f6\'c7\'e2 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a1\'b9\'d6\
-\'b0\'b4\'c3\'bc\'c1\'f6\'c7\'e2 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a1\'b9\'d6\'c0\'ba \'bd\'c7\'bc\'bc\'b0\'e8\'bf\'a1 \'c1\'b8\'c0\'e7\'c7\'cf\'b0\'ed \'c0\'ce\'c1\'f6\'c7\'cf\'b0\'ed \'c0\'d6\'b4\'c2 \'b0\'b4\'c3\'bc(Object)\'b8\'a6 \'bc\'d2\'c7\'c1\'c6\'ae\'bf\'fe\'be\'ee\'c0\'c7 \'bc\'bc\'b0\'e8\'bf\'a1\'bc\'ad \'c7\'a5\'c7\'f6\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d8 \'b0\'b4\'c3\'bc\'c0\'c7 \'c7\'d9\'bd\'c9\'c0\'fb\'c0\'ce \'b0\'b3\'b3\'e4 \'b6\'c7\'b4\'c2 \'b1\'e2\'b4\'c9\'b8\'b8\'c0\'bb \'c3\'df\'c3\'e2\'c7\'cf\'b4\'c2 \'c3\'df\'bb\'f3\'c8\'ad(abstraction)\'b8\'a6 \'c5\'eb\'c7\'d8 \'b8\'f0\'b5\'a8\'b8\'b5\'c7\'cf\'b7\'c1\'b4\'c2 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a1\'b9\'d6 \'c6\'d0\'b7\'af\'b4\'d9\'c0\'d3\'c0\'bb \'b8\'bb\'c7\'d1\'b4\'d9\
-\
-\'b0\'b4\'c3\'bc\'c1\'f6\'c7\'e2 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a1\'b9\'d6\'c0\'ba \'c7\'d4\'bc\'f6\'b5\'e9\'c0\'c7 \'c1\'fd\'c7\'d5 \'c8\'a4\'c0\'ba \'b4\'dc\'bc\'f8\'c7\'d1 \'c4\'c4\'c7\'bb\'c5\'cd\'c0\'c7 \'b8\'ed\'b7\'c9\'be\'ee\'b5\'e9\'c0\'c7 \'b8\'f1\'b7\'cf\'c0\'cc\'b6\'f3\'b4\'c2 \'c0\'fc\'c5\'eb\'c0\'fb\'c0\'ce \'c0\'fd\'c2\'f7\'c1\'f6\'c7\'e2 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a1\'b9\'d6\'b0\'fa\'b4\'c2 \'b4\'d9\'b8\'a5, \'b0\'fc\'b0\'e8\'bc\'ba\'c0\'d6\'b4\'c2 \'b0\'b4\'c3\'bc\'b5\'e9\'c0\'c7 \'c1\'fd\'c7\'d5\'c0\'cc\'b6\'f3\'b4\'c2 \'b0\'fc\'c1\'a1\'c0\'b8\'b7\'ce \'c1\'a2\'b1\'d9\'c7\'cf\'b4\'c2 \'bc\'d2\'c7\'c1\'c6\'ae\'bf\'fe\'be\'ee \'b5\'f0\'c0\'da\'c0\'ce\'c0\'b8\'b7\'ce \'ba\'bc \'bc\'f6 \'c0\'d6\'b4\'d9.\
-\
-## \'c5\'ac\'b7\'a1\'bd\'ba \'b1\'e2\'b9\'dd \'be\'f0\'be\'ee\
-1.\'c5\'ac\'b7\'a1\'bd\'ba\'b6\'f5 \'b0\'b0\'c0\'ba \'c1\'be\'b7\'f9\'c0\'c7 \'c1\'fd\'b4\'dc\'bf\'a1 \'bc\'d3\'c7\'cf\'b4\'c2 \'bc\'d3\'bc\'ba\'b0\'fa \'c7\'e0\'c0\'a7\'b8\'a6 \'c1\'a4\'c0\'c7\'c7\'d1\'b0\'cd\'c0\'cc\'b4\'d9.\
-2.\'b0\'b4\'c3\'bc \'bb\'fd\'bc\'ba\'bf\'a1 \'bb\'e7\'bf\'eb\'b5\'c7\'b4\'c2 \'c6\'d0\'c5\'cf\'c0\'cc\'b1\'e2\'bf\'a1 \'b9\'dd\'b5\'e5\'bd\'c3 new\'bf\'ac\'bb\'ea\'c0\'da\'b8\'a6 \'c5\'eb\'c7\'d1 \'c0\'ce\'bd\'ba\'c5\'cf\'bd\'ba\'c8\'ad \'b0\'fa\'c1\'a4\'c7\'ca\'bf\'e4.\
-3.\'b8\'f0\'b5\'e7 \'c0\'ce\'bd\'ba\'c5\'cf\'bd\'ba\'b4\'c2 \'c5\'ac\'b7\'a1\'bd\'ba\'bf\'a1\'bc\'ad \'c1\'a4\'c0\'c7\'b5\'c8 \'b9\'fc\'c0\'a7 \'b3\'bb\'bf\'a1\'bc\'ad\'b8\'b8 \'c0\'db\'b5\'bf \'b0\'a1\'b4\'c9, \'b7\'b1\'c5\'b8\'c0\'d3\'bf\'a1 \'b1\'d7 \'b1\'b8\'c1\'b6 \'ba\'af\'b0\'e6 \'ba\'d2\'b0\'a1\
- - \'c0\'cc\'b4\'c2 \'c7\'c1\'b7\'ce\'c5\'e4\'c5\'b8\'c0\'d4\'b1\'e2\'b9\'dd \'be\'f0\'be\'ee\'ba\'b8\'b4\'d9 \'c1\'bb \'b4\'f5 \'b3\'aa\'c0\'ba \'b0\'e1\'b0\'fa\'b8\'a6 \'ba\'b8\'c0\'e5\'c7\'d4\
-\
-## \'c7\'c1\'b7\'ce\'c5\'e4\'c5\'b8\'c0\'d4 \'b1\'e2\'b9\'dd \'be\'f0\'be\'ee\
-1. \'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'b4\'c2 \'ba\'b0\'b5\'b5\'c0\'c7 \'b0\'b4\'c3\'bc \'bb\'fd\'bc\'ba \'b9\'e6\'b9\'fd\'c0\'cc \'c1\'b8\'c0\'e7\'c7\'d4\
-2. \'bb\'fd\'bc\'ba\'b5\'c8 \'c0\'ce\'bd\'ba\'c5\'cf\'bd\'ba\'c0\'c7 \'c0\'da\'b7\'e1\'b1\'b8\'c1\'b6\'bf\'cd \'b1\'e2\'b4\'c9\'c0\'bb \'b5\'bf\'c0\'fb \'ba\'af\'b0\'e6 \'b0\'a1\'b4\'c9.\
-3. \'bb\'f3\'bc\'d3, \'c4\'b8\'bd\'b6\'c8\'ad\'b5\'ee\'c0\'ba \'c7\'c1\'b7\'ce\'c5\'e4\'c5\'b8\'c0\'d4 \'c3\'bc\'c0\'ce\'b0\'fa \'c5\'ac\'b7\'ce\'c0\'fa \'b5\'ee\'c0\'b8\'b7\'ce \'b1\'b8\'c7\'f6 \'b0\'a1\'b4\'c9.\
-\
-## \'bb\'f3\'bc\'d3\
-- \'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'b4\'c2 \'c7\'c1\'b7\'ce\'c5\'e4\'c5\'b8\'c0\'d4\'c0\'bb \'c5\'eb\'c7\'d8 \'b0\'b4\'c3\'bc\'b0\'a1 \'b4\'d9\'b8\'a5 \'b0\'b4\'c3\'bc\'b7\'ce \'c1\'f7\'c1\'a2 \'bb\'f3\'bc\'d3 \'b1\'b8\'c7\'f6.\
-### \'c0\'c7\'bb\'e7 \'c5\'ac\'b7\'a1\'bd\'ba \'c6\'d0\'c5\'cf \'bb\'f3\'bc\'d3\
-- \'c0\'da\'bd\'c4 \'bb\'fd\'bc\'ba\'c0\'da \'c7\'d4\'bc\'f6\'c0\'c7 prototype \'c7\'c1\'b7\'ce\'c6\'db\'c6\'bc\'b8\'a6 \'ba\'ce\'b8\'f0 \'bb\'fd\'bc\'ba\'c0\'da \'c7\'d4\'bc\'f6\'c0\'c7 \'c0\'ce\'bd\'ba\'c5\'cf\'bd\'ba\'b7\'ce \'b1\'b3\'c3\'bc\'c7\'cf\'bf\'a9 \'b1\'b8\'c7\'f6\'c7\'cf\'b4\'c2 \'b9\'e6\'b9\'fd\
-- \'b9\'ae\'c1\'a6\'c1\'a1\
- 1) new\'bf\'ac\'bb\'ea\'c0\'da\'b8\'a6 \'c5\'eb\'c7\'d8 \'c0\'ce\'bd\'ba\'c5\'cf\'bd\'ba\'b8\'a6 \'bb\'fd\'bc\'ba\'c7\'cf\'b4\'c2 \'ba\'d2\'c7\'ca\'bf\'e4\'c7\'d1 \'b4\'dc\'b0\'e8 \'c1\'b8\'c0\'e7\
- 2) \'bb\'fd\'bc\'ba\'c0\'da \'b8\'b5\'c5\'a9\'c0\'c7 \'c6\'c4\'b1\'ab \'bb\'f3\'bc\'d3 \'b9\'de\'c0\'ba \'c0\'ce\'bd\'ba\'c5\'cf\'bd\'ba\'b4\'c2 constructor\'bf\'cd\'c0\'c7 \'bf\'ac\'b0\'e1\'c0\'cc \'83\'c6\'c1\'f6\'b0\'d4 \'b5\'c8\'b4\'d9\
- 3) \'b0\'b4\'c3\'bc \'b8\'ae\'c5\'cd\'b7\'b2 \'c6\'d0\'c5\'cf\'bf\'a1 \'c0\'c7\'c7\'d1 \'b0\'b4\'c3\'bc\'bf\'a1\'b4\'c2 \'ba\'ce\'c0\'fb\'c7\'d5\
-\
-### \'c7\'c1\'b7\'ce\'c5\'e4\'c5\'b8\'c0\'d4 \'c6\'d0\'c5\'cf \'bb\'f3\'bc\'d3\
--  Object.create \'c7\'d4\'bc\'f6\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 \'b0\'b4\'c3\'bc\'bf\'a1\'bc\'ad \'b4\'d9\'b8\'a5 \'b0\'b4\'c3\'bc\'b7\'ce \'c1\'f7\'c1\'a2 \'bb\'f3\'bc\'d3\'c0\'bb \'b1\'b8\'c7\'f6\'c7\'cf\'b4\'c2 \'b9\'e6\'bd\'c4\'c0\'cc\'b4\'d9. \'c0\'c7\'bb\'e7 \'c5\'ac\'b7\'a1\'bd\'ba \'c6\'d0\'c5\'cf \'bb\'f3\'bc\'d3\'c0\'c7 \'b9\'ae\'c1\'a6\'c1\'a1\'c0\'bb \'ba\'b8\'bf\'cf\'c7\'d4.\
-\
-\
-* \'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'b4\'c2 \'c5\'ac\'b7\'a1\'bd\'ba \'b1\'e2\'b9\'dd \'be\'f0\'be\'ee\'b0\'a1 \'be\'c6\'b4\'cf\'b9\'c7\'b7\'ce \'b1\'e2\'c1\'b8\'c0\'c7 \'c0\'fc\'c5\'eb\'c0\'fb \'b9\'e6\'bd\'c4\'c0\'b8\'b7\'ce \'b1\'b8\'c7\'f6\'c7\'cf\'b7\'c1\'b4\'c2 \'bd\'c3\'b5\'b5\'b4\'c2 \'b4\'e7\'bd\'c3 \'bb\'f3\'c8\'b2\'bf\'a1 \'c3\'d6\'bc\'b1\'c0\'c7 \'b3\'eb\'b7\'c2\'c0\'cc\'be\'fa\'b4\'d9. \'c7\'cf\'c1\'f6\'b8\'b8 \'c7\'f6\'c0\'e7\'b4\'c2 \'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae \'be\'f0\'be\'ee\'bf\'a1 \'b8\'c5\'bf\'ec \'c8\'bf\'b0\'fa\'c0\'fb\'c0\'ce \'c7\'c1\'b7\'b9\'c0\'d3 \'bf\'f6\'c5\'a9\'b0\'a1 \'c0\'d6\'c0\'b8\'b4\'cf \'c0\'cc\'b8\'a6 \'c3\'e6\'ba\'d0\'c8\'f7 \'c8\'b0\'bf\'eb\'c7\'cf\'b0\'ed, \'c0\'da\'b9\'d9\'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'b8\'b8\'c0\'c7 \'b9\'e6\'bd\'c4\'c0\'bb \'c0\'df \'c8\'b0\'bf\'eb\'c7\'cf\'bf\'a9 \'ba\'b8\'b4\'d9 \'c8\'bf\'c0\'b2\'c0\'fb\'c0\'ce \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a1\'b9\'d6\'c0\'bb \'c3\'df\'b1\'b8\'c7\'d8\'be\'df\'c7\'d1\'b4\'d9. 
-\f4 \cf12 \cb1 \
-\pard\pardeftab720\partightenfactor0
+## Built-in Object  내장 객체
+BOM 브라우저를 컨틀롤 한다
+DOM HTML CSS를 컨트롤해서 페이지를 동적으로 만들어 준다
 
-\f0\fs28 \cf2 \cb3 \
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\pard\pardeftab720\partightenfactor0
+##Standard Built-in Object
+-표준 빌트인 객체 / 네이티브 객체를 제외 한 것
+-일반적으로 대문자로 시작한다 / String, Array
+-Global Objects 라고도 한다 ( Global Object 와 다르다)
 
-\fs24 \cf2 \cb3 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-\cf2 \kerning1\expnd0\expndtw0 \
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-}
+
+##Standard Built-in Object 표준 빌트인 객체
+- 브라우저에서는 window / node에선 global
+- 전역 변수와 전역함수는 window의 프로퍼티이다
+
+## 전역 프로퍼티
+- 어플리케이션 전역에서 사용하는 값
+1) Infinity
+- 음,양의 무한대
+2) NaN
+- Not - a - Number 숫자가 아님
+3) undefined
+
+## 전역 함수 / 전역 메소드
+1) eval()
+- 인자로 들어온 값을 평가 또는 실행한다 - 보안에 매우 취약한 관계로 절대로 사용해선 안된다.
+
+2) isFinite ()    * 프로퍼티명에 is가 들어가면 boolean을 의미한다
+- 인자 전달 값이 유한수인지 검사한다. 
+- 유한수일 경우 true
+
+3) isNaN()
+- 인자 전달 값이 NaN 인지 검사
+
+4) parseFloat()
+- 매개변수에 전달된 문자열을 부동소수점 숫자로 변환하여 반환한다.
+
+5) parseInt()
+- 매개변수에 문자열을 정수형 숫자로 변환하여 반환한다
+- 사용빈도 매우 높다
+- 문자를열 숫자로  바꿀 시 사용
+* parseInt( 필수 인자,[ 옵션])
+
+6) encodeURI() /decodeURI()
+- d
+
+##Standard Built-in Object 표준 빌트인 객체
+
+
+## 기본자료형과 래퍼객체(wrapper Object)
+기본자료형을 객체처럼 사용하기 위해 각가의 기본자료형은 래퍼 객체를 갖고있다.
+
+
+## 기본 자료형 string을 위한 레퍼(wrapper) 객체
+스트링은 유사배열 객체이다.
+유사배열 객체는 length 프로퍼티를 갖고 있다. 
+스트링 객체는 String() 생성자 함수를 통해 생성할 수 있다.
+New String(str);
+
+1)String.length
+- 문자열 내의 문자 갯수를 반환한다.
+
+2)String.porototype.charAt()
+- 매개변수로 전달한 index 번호에 해당하는 위치의 문자를 반환
+- 번호는 0~ (문자열 길이-1) 사이의 정수
+- 번호가 0 ~  (문자열 길이-1) 를 벗어난 경우 빈문자열 반환
+
+3)String.prototype.indexOf()
+- 매개변수로 전달된 문자 또는 문자열을 대상 문자열에서 검색하여 발견된 곳의 index 반환
+
+4)String.prototype.lastIndexOf()
+- 위 와 동일하게 움직이지만 마지막 글자 위치 부터 찾아 낸다.
+- 검색시 시작 지점의 index 번호가 0이 되어 역순으로 0,1,2,3....이 되는건아니다
+기존 인덱스 번호를 찾아낸다. 검색 방향만 역순
+
+5)String.prototype.replace() *** 매우 중요
+첫번쨰 인자를 검색해서 두번째 인자 문자열로 대체한다
+스트링 객체의 메소드는 절대 원본을 건드리지 않는다.
+
+6)String.prototype.split() ***매우 중요
+매개변수에 따라 문자열이 분리되어 반환된다
+배열을 리턴으로 받는다
+
+7)String.prototype.substring() ***** 매우중요요
+첫째 인자 인덱스 번호 부터 두번째 인자 인덱스 번호의 문자까지를 모두 반환한다.
+
+8)String.prototype.toLowerCase()*****
+문자열의 문자를 모두 소문자로 변경한다.
+
+9)String.prototype.toUpperCase()*****
+문자열의 문자를 모두 대문자로 변경한다.
+
+10)String.prototype.trim()
+문자열 양쪽 끝에 있는 공백 문자를 제거한 문자열을 반환한다.
+
+
+
+## Number Property
+
+1) Number.EPSILON *** 잘 알아두고 있어야함 컴공 기본 소양 ***
+한 숫자와 다른 숫자 사이에서 자바스크립트가 표현할 수 있는 가장 작은 수
+*소수 표현이 우리가 아는것과 다르다. 약간의 차이가 있다
+Ex) 0.1 + 0.2 = 0.30000000000000004 
+이에 사소한 오차가 크게 작용되는 분야에서는 라이브러리를 사용해서 이런 오차를 없앤다.
+또는 절대값을 반환 하는 Math.abs를 사용해서 Number.EPSILON 보다 작으면 같은수로 인정 할 수 있다.
+
+2) Number.MAX_VALUE * 프로퍼티가 대문자인것은 상수라는 의미(값이 변하지않음)
+
+##Number Method
+
+1) Number.isFinite()
+매개변수에 전달된 값이 정상적인 유한수인지 검사
+*전역객체의 isFinite() 는 형 변화를 하지만 Number.isFinite() 형변화 안해서 더욱 엄격하다
+
+2) Number.isInteger
+정수인지 확인해서 Boolean 값 반환
+
+3) Number.isNaN()
+이 또한 형변화 없이 NaN인지 검사한다
+
+4) Number.isSafeInteger()
+자바스크립트내에서 사용가능한 정수인지 확인한다.
+Number.isSafeInteger(1000000000000000)  // true
+Number.isSafeInteger(10000000000000001) // false
+
+1)  ~  4)까지는 객체 생성을 해서 사용하지 않는 스테틱 메소드이다
+
+5) Number.prototype.toExpontial()
+대상을 지수 표기법으로 변환하여 문자열로 반환한다. 
+- 메소드 사용시 기본적으로 변수에 담아쓰기를 권장
+
+6) Number.prototype.Fixed()
+매개변수로 지정된 소숫점자리를 반올림하여 문자열로 반환
+- 내가 바라는 숫자 표현방식에 맞게 표현하려 할 때 사용
+
+7) Number.prototype.toPrecision()
+
+8)Number.prototype.toString()
+숫자를 문자열로 변환하여 반환
+인자값은 ‘진법’을 나타낸다 2 = 2진법 / 10은 10진법
+
+9) Number.prototype.valueOf()
+Number 객체의 기본자료형 값을 반환한다.
+
+
+
+
+##MATH 객체
+- Math 는 생성자가없는 정적(static)프로퍼티와 메소드이다.
+
+## Math Property
+1) Math.PI
+파이 값 반환  3.14
+
+## Math Method
+
+1) Math.abs()
+ 양수 절대값 반환
+
+2)Math.round()
+숫자를 가장 인접한 정수로 올림/내림 한다.
+
+3)Math.sqrt()
+양의 제곱근 반환
+
+4)Math.ceil()
+지정된 숫자를 올림한다
+
+5)Math.floor()
+지정된 숫자를 내림한다
+
+6) Math.random()
+0~1사이의 임의 숫자를 반환한다 * 0은 포함하지만 1은 포함하지 않는다
+
+7) Math.pow()
+첫번쨰 인수를 밑 두번쨰 인수를 지수로 하여 거듭제곱 반환
+
+8)Math.max() ***
+인수 중 가장 큰 수를 반환한다
+Math.max(1, 2, 3) ;  // 3
+
+*배열을 이용할 경우
+var arr = [1, 2, 3];
+var max = Math.max.apply(null, arr); // 3
+apply는 함수를 호출해준다 이떄 두번째인자는 배열이되고 값을 전달할때 배열안의 값을 풀어서 전달한다. 이때 첫번쨰 인자에 null을 넣어줘야한다. *max는 스태틱이라서 this가 없기 때문이다
+
+9) Math.min()***
+인수 중 가장 작은 수를 반환한다
+
+
+
+
+##정규 표현식(Requlat Expressin)
+자바스크립트  문법이 아닌 하나의 언어이다.
+
+문자열을 다룬다. 
+
+1) 플래그
+i : ignore case - 대소문자를 구별하지 않고 검색
+g: global - 문자열 내의 모든 패턴을 검색한다
+m: Multi line - 문자열의 행이 바뀌더라도 검색을 계속한다/( 줄 바꿈 무시 )
+플래그는 옵션일 뿐 필수 요소는 아니다 필요할 때 사용하자
+
+
+2) 패턴
+패턴은 찾고자 하는 대상을 문자열로 지정한다.
+또한 특별한 의미를 가지는 메타문자 또는 기호로 표현 가능하다
+
+.은 임의의 문자 한개를 의미
+/. . ./ 은 3개의 문자 추출
+
+
+
+##Array 배열******
+
+1개의 변수에 여러 개의 값을 순차적으로 저장할 때 사용한다.
+(객체는 순서가 보장되지 않는다)
+
+##배열 리터럴
+[] 대괄호로 묶어서 생성한다.
+ var arr = [] ; —> 빈배열
+배열에 들어가는 값은 요소(element)라고 하고 이는 순서가 있다.
+자바스크립트는 배열안의 자료형식 각각 달라도 무방하다
+
+배열 요소의 추가
+배열도 생성 이후 동적으로 요소 추가 가능하다
+var arr = [];
+위 상황에서 아래 와 같이 하면 요소가 추가 된다
+arr[0] = ‘one’;
+arr[1] = ’two;
+
+1)  Array.length
+요소의 갯수를 나타냄
+
+## Array Method
+
+1) Array.isArray()
+객체가 배열이면 true 아니면 false
+
+2) Array.prototype.indexOf()
+인자로 지정된 요소를 배열에서 검색하여 인덱스를 반환한다.
+
+3)Array.prototype.concat(item…)
+인수로 넘어온 값 또는 배열을 자신의 복사본에 요소로 추가하고 반환한다.
+var c = a.concat(b);
+console.log(c); // ['a', 'b', 'c', 'x', 'y', 'z']
+위와 같은 경우 배열 자체를 추가하는것이 아닌 해당 배열 안 요소들을 추가한다.
+* 원본 배열은 변경 되지 않는다.
+
+4)Array.prototype.join()
+배열요소 전체를 연결하여 문자열을 반환한다.
+
+5) Array.prototype.pop()
+배열 마지막 요소를 제거하고 제거한 요소를 반환한다.
+* 원본 배열이 변경된다.
+
+6) Array.prototype.push()
+인자로 전달한 항목을 배열의 끝에 추가한다.
+인자가 배열인 경우 배열 자체를 추가 한다.
+
+7) Array.prototype.reverse()
+배열 요소의 순서를 반대로 변경한다. 이때 원본 배열이 변경 된다
+반환값은 변경된 배열이다
+
+8)Array.prototype.shift()
+배열에서 첫요소를 제거하고 제거한 요소를 반환한다. 만약 빈 배열일 경우 undefined를 반환한다.
+
+9)Array.prototype.slice(start, end) *****
+배열의 특정 부분에 대한 복사본 생성
+
+10)Array.prototype.splice(start, deleteCount, item...)*****
+첫째 인자 부터 2번째 인자 개수의 요소를 제거 후 제거된 요소를 배열로 반환
+
+3번째 인자 부터는 새롭게 추가할 요소가 된다.
+
+11) Array.prototype.sort**
+배열의 내용을 정렬한다
+
+
+12) Array.prototype.forEach ***************
+For 문의 일종이다
+for문을 따로 쓰지 않아도 순회하면서 지정
+function( item , index, array)
+
+13) Array.prototype.map() *****************
+원본 배열의 값을 이용하여 새로운 배열을 생성 할 시 사용한다
+원본 배열에 매소드를 사용하고 그 결과값을 리턴하면 새로운 배열 생성된다.
+리턴을 하지 않으면 새로운 배열에 반영되지 않는다.
+ 
+
+
+# 실행 컨텍스트와 자바스크립트의 동작 원리
+  * 잘 알면 디버깅을 잘 할 수 있다.
+## 실행 컨텍스트
+  * 실행 가능한 코드를 형상화하고 구분하는 추상적 개념(ECMAScript)
+    * 실행 가능한 코드: 전역코드와 함수코드(Eval함수 코드는 사용 금지)
+  * 코드 실행을 위한 정보
+    * 변수: 전역변수, 지역변수, 매개변수, 객체의 프로퍼티.
+    * 함수 선언: 함수명(무명함수 제외)과 함수 자체  
+    * 변수의 유효범위(Scope)
+    * this: 이 this가 가리키는 것이 무엇인가?
+ * 실행 컨텍스트 스택(콜 스택)과 코드 실행 순서
+   * 실행 컨텍스트(EC)가 쌓이는 메모리상의 공간
+   * 전전 실행 컨텍스트는 브라우저를 종료할 때까지 계속 메모리 공간 점유
+
+## 실행 컨텍스트의 3가지 객체
+  1. Variable Object(변수객체)
+  * 변수, 매개변수(parameter), 인수정보(arguments), 함수선언(변수로 취급되는 함수표현식은 제외)을 담고 있음.
+  * 전역 컨텍스트에서 VO는 전역객체(GO/ window, global)를 가르키며 그 안에 세팅해 놓는다. (전역 객체는 전역 컨텍스트 이전인, 브라우저를 켜는 순간 태초부터 존재했다.)
+    * 전역 변수는 왜 전역 객체의 프로퍼티인가에 대한 이야기
+    * 함수 컨텍스트에서 VO는 활성객체(AO, Activation Object)를 가리킨다.
+
+  2. Scope Chain
+  * 다이렉트로 가리키는게 아니다. 스코프가 여러 개가 있을 수 있기 때문에 배열처럼 리스트화된 단계를 거친다. 순서가 있어서 0인 자신의 AO를 보고 그래도 없으면 두번째인 1, 상위(본 예제에서는 전역)인 GO를 본다.
+   * 즉, 그 중간 단계는 스코프 판단을 위한 단계
+
+  3. this value
+  * this 프로퍼티에는 this 값이 할당된다. this에 할당되는 값은 함수 호출 패턴에 의해 결정된다.
+
+## 실행 컨텍스트의 생성 과정
+  ```javascript
+  // 판단 예제
+
+  var x = 'xxx';
+
+  function foo () {
+    var y = 'yyy';
+
+    function bar () {
+      var z = 'zzz';
+      console.log(x + y + z);
+    }
+    bar();
+  }
+  foo();
+  ```
+  
+  * 전역 코드에의 진입
+    * 이 상태는 전역 코드 실행 전 단계
+    * 초기 상태의 전역객체는 빌트인 객체와 BOM, DOM 등이 있다.
+    1. 스코프 체인의 생성과 초기화
+    2. Variable Instantiation(변수 객체화) 실행
+        1. 함수 foo의 선언 처리 : 함수 호이스팅의 원리(scope판단을 위해 이미 함수의 내용을 다 갖고 있음)
+        2.  변수 x의 선언 처리 : 변수 호이스팅의 원리(선언, 초기화만 수행)
+    3. this value 결정
+
+  * 전역 코드의 실행
+    1. 변수 값의 할당 : 전역변수 x에 문자열 ‘xxx’를 할당
+    2. 함수 foo의 실행 : `전역 코드에의 진입`의 경우와 마찬가지로 다음 3단계 거침
+        1. 스코프 체인의 생성과 초기화
+        2. Variable Instantiation 실행
+        3.  this value 결정
+
+  * foo 함수 코드의 실행
+    * `전역 코드의 실행`과 마찬가지 과정을 반복한다.
+    1. 변수 값의 할당: 지역변수 y에 문자열 'yyy'를 할당
+    2. 함수 bar의 실행: 이 단계에서 `console.log(x + y + z);`의 실행 결과는 xxxyyyzzz가 된다.
+
+
+# 클로저 - Closure
+
+##클로저의 개념
+자바스크립트에서 중요한 개념. 
+*일급객체 : 객체를 값 처럼 사용 가능
+일급 객체를 취급하는 함수형 언어에서 사용 된다.
+내부함수가 참조하는 외부함수의 지역변수가 외부함수에 의해 내부함수가 반환된 이후에도 life-cycle이 유지되는 것을 의미. 이때의 변수는 자유변수이다.
+ - 즉 내부함수는 외부함수를 참조 할 수 있다.
+ - 내부함수의 스코프는 외부함수의 스코프를 참조할수 있다.
+
+
+##클로저 전제 조건
+ 외부함수 와 내부함수로 이뤄져 있고 내부함수는 외부함수를 참조한다
+
+## 클로저 단점
+무분별한 클로저의 사용은 득보다는 실이 많다. 클로저 작동이 종료가 되어도 외부함수 의 VO가 메모리에 남아있게 되어 많이 사용하면 해당 건이 누적되어 성능이 떨어지게 된다. 
+
+## 예제
+아래의 링크를 통해 클로저 예제를 공부해보자
+[예제 링크](http://poiemaweb.com/js-closure#2-클로저의-활용)
+
+# 자바스크립트 객체 지향 프로그래밍
+객체지향 프로그래밍은 실세계에 존재하고 인지하고 있는 객체(Object)를 소프트웨어의 세계에서 표현하기 위해 객체의 핵심적인 개념 또는 기능만을 추출하는 추상화(abstraction)를 통해 모델링하려는 프로그래밍 패러다임을 말한다
+
+객체지향 프로그래밍은 함수들의 집합 혹은 단순한 컴퓨터의 명령어들의 목록이라는 전통적인 절차지향 프로그래밍과는 다른, 관계성있는 객체들의 집합이라는 관점으로 접근하는 소프트웨어 디자인으로 볼 수 있다.
+
+## 클래스 기반 언어
+1.클래스란 같은 종류의 집단에 속하는 속성과 행위를 정의한것이다.
+2.객체 생성에 사용되는 패턴이기에 반드시 new연산자를 통한 인스턴스화 과정필요.
+3.모든 인스턴스는 클래스에서 정의된 범위 내에서만 작동 가능, 런타임에 그 구조 변경 불가
+ - 이는 프로토타입기반 언어보다 좀 더 나은 결과를 보장함
+
+## 프로토타입 기반 언어
+1. 자바스크립트는 별도의 객체 생성 방법이 존재함
+2. 생성된 인스턴스의 자료구조와 기능을 동적 변경 가능.
+3. 상속, 캡슐화등은 프로토타입 체인과 클로저 등으로 구현 가능.
+
+## 상속
+- 자바스크립트는 프로토타입을 통해 객체가 다른 객체로 직접 상속 구현.
+### 의사 클래스 패턴 상속
+- 자식 생성자 함수의 prototype 프로퍼티를 부모 생성자 함수의 인스턴스로 교체하여 구현하는 방법
+- 문제점
+ 1) new연산자를 통해 인스턴스를 생성하는 불필요한 단계 존재
+ 2) 생성자 링크의 파괴 상속 받은 인스턴스는 constructor와의 연결이 꺠지게 된다
+ 3) 객체 리터럴 패턴에 의한 객체에는 부적합
+
+### 프로토타입 패턴 상속
+-  Object.create 함수를 사용하여 객체에서 다른 객체로 직접 상속을 구현하는 방식이다. 의사 클래스 패턴 상속의 문제점을 보완함.
+
+
+* 자바스크립트는 클래스 기반 언어가 아니므로 기존의 전통적 방식으로 구현하려는 시도는 당시 상황에 최선의 노력이었다. 하지만 현재는 자바스크립트 언어에 매우 효과적인 프레임 워크가 있으니 이를 충분히 활용하고, 자바스크립트만의 방식을 잘 활용하여 보다 효율적인 프로그래밍을 추구해야한다. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

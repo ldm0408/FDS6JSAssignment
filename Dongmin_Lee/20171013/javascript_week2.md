@@ -15,13 +15,13 @@
 BOM 브라우저를 컨틀롤 한다
 DOM HTML CSS를 컨트롤해서 페이지를 동적으로 만들어 준다
 
-##Standard Built-in Object
+## Standard Built-in Object
 -표준 빌트인 객체 / 네이티브 객체를 제외 한 것
 -일반적으로 대문자로 시작한다 / String, Array
 -Global Objects 라고도 한다 ( Global Object 와 다르다)
 
 
-##Standard Built-in Object 표준 빌트인 객체
+## Standard Built-in Object 표준 빌트인 객체
 - 브라우저에서는 window / node에선 global
 - 전역 변수와 전역함수는 window의 프로퍼티이다
 
@@ -56,7 +56,7 @@ DOM HTML CSS를 컨트롤해서 페이지를 동적으로 만들어 준다
 6) encodeURI() /decodeURI()
 - d
 
-##Standard Built-in Object 표준 빌트인 객체
+# Standard Built-in Object 표준 빌트인 객체
 
 
 ## 기본자료형과 래퍼객체(wrapper Object)
@@ -118,7 +118,7 @@ Ex) 0.1 + 0.2 = 0.30000000000000004
 
 2) Number.MAX_VALUE * 프로퍼티가 대문자인것은 상수라는 의미(값이 변하지않음)
 
-##Number Method
+## Number Method
 
 1) Number.isFinite()
 매개변수에 전달된 값이 정상적인 유한수인지 검사
@@ -157,7 +157,7 @@ Number 객체의 기본자료형 값을 반환한다.
 
 
 
-##MATH 객체
+## MATH 객체
 - Math 는 생성자가없는 정적(static)프로퍼티와 메소드이다.
 
 ## Math Property
@@ -202,7 +202,7 @@ apply는 함수를 호출해준다 이떄 두번째인자는 배열이되고 값
 
 
 
-##정규 표현식(Requlat Expressin)
+## 정규 표현식(Requlat Expressin)
 자바스크립트  문법이 아닌 하나의 언어이다.
 
 문자열을 다룬다. 
@@ -223,12 +223,12 @@ m: Multi line - 문자열의 행이 바뀌더라도 검색을 계속한다/( 줄
 
 
 
-##Array 배열******
+## Array 배열******
 
 1개의 변수에 여러 개의 값을 순차적으로 저장할 때 사용한다.
 (객체는 순서가 보장되지 않는다)
 
-##배열 리터럴
+## 배열 리터럴
 [] 대괄호로 묶어서 생성한다.
  var arr = [] ; —> 빈배열
 배열에 들어가는 값은 요소(element)라고 하고 이는 순서가 있다.
